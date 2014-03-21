@@ -1,0 +1,46 @@
+<div class="footer-container">
+    <div class="footer">
+                <div class="f-right">
+            <img src="http://127.0.0.1/tpmagento/skin/frontend/default/modern/images/media/footer_callout.png" class="footer-callout" alt="" />
+            <div class="store-switcher">
+    <label for="select-store">Choisir un magasin :</label>
+    <select id="select-store" title="Choisir un magasin" onchange="location.href=this.value">
+                        <option value="" selected="selected">Informatique</option>
+                    <option value="http://127.0.0.1/tpmagento/index.php/?___SID=U&___store=fr_jv">Jeux vidéos</option>
+        </select>
+</div>
+        </div>
+        <div class="f-left">
+            <ul>
+<li><a href="http://127.0.0.1/tpmagento/index.php/about-magento-demo-store?___SID=U">About Us</a></li>
+<li><a href="http://127.0.0.1/tpmagento/index.php/customer-service?___SID=U">Customer Service</a></li>
+<li class="last privacy"><a href="http://127.0.0.1/tpmagento/index.php/privacy-policy-cookie-restriction-mode?___SID=U">Privacy Policy</a></li>
+</ul>            <ul class="links">
+                        <li class="first" ><a href="http://127.0.0.1/tpmagento/index.php/catalog/seo_sitemap/category/?___SID=U" title="Plan du site" >Plan du site</a></li>
+                                <li ><a href="http://127.0.0.1/tpmagento/index.php/catalogsearch/term/popular/?___SID=U" title="Termes de recherche" >Termes de recherche</a></li>
+                                <li ><a href="http://127.0.0.1/tpmagento/index.php/catalogsearch/advanced/?___SID=U" title="Recherche avancée" >Recherche avancée</a></li>
+                                <li ><a href="http://127.0.0.1/tpmagento/index.php/sales/guest/form/?___SID=U" title="Commandes et retours" >Commandes et retours</a></li>
+                                <li class=" last" ><a href="http://127.0.0.1/tpmagento/index.php/contacts/?___SID=U" title="Contactez-nous" >Contactez-nous</a></li>
+            </ul>
+            <form action="http://127.0.0.1/tpmagento/index.php/newsletter/subscriber/new/?___SID=U" method="post" id="newsletter-validate-detail">
+    <div class="form-subscribe">
+        <div class="form-subscribe-header">
+            <label for="newsletter">Inscription à la newsletter :</label>
+        </div>
+        <div class="input-box">
+           <input type="text" name="email" id="newsletter" title="Abonnez-vous à la newsletter" class="input-text required-entry validate-email" />
+        </div>
+        <button type="submit" title="Valider" class="button"><span><span>Valider</span></span></button>
+    </div>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+    var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    new Varien.searchForm('newsletter-validate-detail', 'newsletter', 'Saisissez votre email');
+//]]>
+</script>
+            <p class="bugs">Aidez-nous à améliorer Magento - <a href="http://www.magentocommerce.com/bug-tracking" onclick="this.target='_blank'"><strong>Signaler un dysfonctionnement</strong></a> (ver. 1.8.1.0)</p>
+            <address>&copy; 2013 Alexandre Wavelet. All Rights Reserved.</address>
+        </div>
+    </div>
+</div>
