@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.1.6
+-- version 4.0.9
 -- http://www.phpmyadmin.net
 --
--- Client :  localhost
--- Généré le :  Lun 24 Mars 2014 à 00:07
--- Version du serveur :  5.6.16
--- Version de PHP :  5.5.9
+-- Client: localhost
+-- Généré le: Mer 26 Mars 2014 à 17:10
+-- Version du serveur: 5.6.14
+-- Version de PHP: 5.5.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de données :  `magento`
+-- Base de données: `magento`
 --
 
 -- --------------------------------------------------------
@@ -232,7 +232,7 @@ CREATE TABLE IF NOT EXISTS `admin_user` (
 --
 
 INSERT INTO `admin_user` (`user_id`, `firstname`, `lastname`, `email`, `username`, `password`, `created`, `modified`, `logdate`, `lognum`, `reload_acl_flag`, `is_active`, `extra`, `rp_token`, `rp_token_created_at`) VALUES
-(1, 'Alexandre', 'Wavelet', 'wavelet.alexandre@gmail.com', 'admin', '4f6633b985557a3dc2a4c49c2f71c068:z7y3L8EYVIRnm32NYmDVs2LQNvotz1Q0', '2014-03-20 18:28:22', '2014-03-20 18:28:22', '2014-03-21 14:30:23', 7, 0, 1, 'a:1:{s:11:"configState";a:50:{s:16:"currency_options";s:1:"1";s:20:"currency_webservicex";s:1:"1";s:15:"currency_import";s:1:"1";s:15:"payment_account";s:1:"1";s:32:"payment_paypal_payment_solutions";s:1:"0";s:36:"payment_payments_pro_hosted_solution";s:1:"0";s:30:"payment_pphs_required_settings";s:1:"1";s:35:"payment_pphs_required_settings_pphs";s:1:"1";s:21:"payment_pphs_settings";s:1:"1";s:30:"payment_pphs_settings_advanced";s:1:"0";s:30:"payment_pphs_settlement_report";s:1:"0";s:11:"payment_wps";s:1:"0";s:29:"payment_wps_required_settings";s:1:"1";s:34:"payment_settings_payments_standart";s:1:"1";s:43:"payment_settings_payments_standart_advanced";s:1:"0";s:24:"payment_express_checkout";s:1:"0";s:33:"payment_express_checkout_required";s:1:"1";s:50:"payment_express_checkout_required_express_checkout";s:1:"1";s:19:"payment_settings_ec";s:1:"1";s:28:"payment_settings_ec_advanced";s:1:"0";s:42:"payment_express_checkout_billing_agreement";s:1:"0";s:42:"payment_express_checkout_settlement_report";s:1:"0";s:33:"payment_express_checkout_frontend";s:1:"0";s:14:"payment_ccsave";s:1:"0";s:15:"payment_checkmo";s:1:"0";s:12:"payment_free";s:1:"0";s:20:"payment_banktransfer";s:1:"0";s:22:"payment_cashondelivery";s:1:"0";s:21:"payment_purchaseorder";s:1:"0";s:31:"payment_authorizenet_directpost";s:1:"0";s:20:"payment_authorizenet";s:1:"0";s:14:"design_package";s:1:"0";s:12:"design_theme";s:1:"0";s:11:"design_head";s:1:"1";s:13:"design_header";s:1:"1";s:13:"design_footer";s:1:"1";s:16:"design_watermark";s:1:"1";s:17:"design_pagination";s:1:"1";s:12:"design_email";s:1:"1";s:16:"catalog_frontend";s:1:"1";s:15:"catalog_sitemap";s:1:"1";s:20:"catalog_productalert";s:1:"1";s:19:"catalog_placeholder";s:1:"1";s:26:"catalog_layered_navigation";s:1:"1";s:11:"catalog_seo";s:1:"1";s:14:"catalog_search";s:1:"1";s:20:"catalog_downloadable";s:1:"1";s:22:"catalog_custom_options";s:1:"1";s:24:"cataloginventory_options";s:1:"1";s:29:"cataloginventory_item_options";s:1:"1";}}', NULL, NULL);
+(1, 'Alexandre', 'Wavelet', 'wavelet.alexandre@gmail.com', 'admin', '4f6633b985557a3dc2a4c49c2f71c068:z7y3L8EYVIRnm32NYmDVs2LQNvotz1Q0', '2014-03-20 18:28:22', '2014-03-20 18:28:22', '2014-03-26 14:35:27', 10, 0, 1, 'a:1:{s:11:"configState";a:60:{s:16:"currency_options";s:1:"1";s:20:"currency_webservicex";s:1:"1";s:15:"currency_import";s:1:"1";s:15:"payment_account";s:1:"1";s:32:"payment_paypal_payment_solutions";s:1:"0";s:36:"payment_payments_pro_hosted_solution";s:1:"0";s:30:"payment_pphs_required_settings";s:1:"1";s:35:"payment_pphs_required_settings_pphs";s:1:"1";s:21:"payment_pphs_settings";s:1:"1";s:30:"payment_pphs_settings_advanced";s:1:"0";s:30:"payment_pphs_settlement_report";s:1:"0";s:11:"payment_wps";s:1:"0";s:29:"payment_wps_required_settings";s:1:"1";s:34:"payment_settings_payments_standart";s:1:"1";s:43:"payment_settings_payments_standart_advanced";s:1:"0";s:24:"payment_express_checkout";s:1:"0";s:33:"payment_express_checkout_required";s:1:"1";s:50:"payment_express_checkout_required_express_checkout";s:1:"1";s:19:"payment_settings_ec";s:1:"1";s:28:"payment_settings_ec_advanced";s:1:"0";s:42:"payment_express_checkout_billing_agreement";s:1:"0";s:42:"payment_express_checkout_settlement_report";s:1:"0";s:33:"payment_express_checkout_frontend";s:1:"0";s:14:"payment_ccsave";s:1:"0";s:15:"payment_checkmo";s:1:"0";s:12:"payment_free";s:1:"0";s:20:"payment_banktransfer";s:1:"0";s:22:"payment_cashondelivery";s:1:"0";s:21:"payment_purchaseorder";s:1:"0";s:31:"payment_authorizenet_directpost";s:1:"0";s:20:"payment_authorizenet";s:1:"0";s:14:"design_package";s:1:"0";s:12:"design_theme";s:1:"0";s:11:"design_head";s:1:"1";s:13:"design_header";s:1:"1";s:13:"design_footer";s:1:"1";s:16:"design_watermark";s:1:"1";s:17:"design_pagination";s:1:"1";s:12:"design_email";s:1:"1";s:16:"catalog_frontend";s:1:"1";s:15:"catalog_sitemap";s:1:"1";s:20:"catalog_productalert";s:1:"1";s:19:"catalog_placeholder";s:1:"1";s:26:"catalog_layered_navigation";s:1:"1";s:11:"catalog_seo";s:1:"1";s:14:"catalog_search";s:1:"1";s:20:"catalog_downloadable";s:1:"1";s:22:"catalog_custom_options";s:1:"1";s:24:"cataloginventory_options";s:1:"1";s:29:"cataloginventory_item_options";s:1:"1";s:15:"general_country";s:1:"1";s:14:"general_locale";s:1:"1";s:25:"general_store_information";s:1:"1";s:7:"web_seo";s:1:"0";s:12:"web_unsecure";s:1:"0";s:10:"web_secure";s:1:"0";s:11:"web_default";s:1:"1";s:9:"web_polls";s:1:"0";s:10:"web_cookie";s:1:"0";s:24:"web_browser_capabilities";s:1:"0";}}', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -465,22 +465,22 @@ CREATE TABLE IF NOT EXISTS `cataloginventory_stock_item` (
 --
 
 INSERT INTO `cataloginventory_stock_item` (`item_id`, `product_id`, `stock_id`, `qty`, `min_qty`, `use_config_min_qty`, `is_qty_decimal`, `backorders`, `use_config_backorders`, `min_sale_qty`, `use_config_min_sale_qty`, `max_sale_qty`, `use_config_max_sale_qty`, `is_in_stock`, `low_stock_date`, `notify_stock_qty`, `use_config_notify_stock_qty`, `manage_stock`, `use_config_manage_stock`, `stock_status_changed_auto`, `use_config_qty_increments`, `qty_increments`, `use_config_enable_qty_inc`, `enable_qty_increments`, `is_decimal_divided`) VALUES
-(1, 1, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 14:57:48', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(2, 2, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 15:26:40', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(3, 3, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 15:28:23', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(4, 4, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 16:19:41', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(5, 5, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 15:31:57', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(6, 6, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 15:34:47', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(7, 7, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 15:36:40', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(8, 8, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 15:40:05', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(9, 9, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 15:42:13', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(10, 10, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 15:43:48', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(11, 11, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 15:45:24', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(12, 12, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-21 15:49:46', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
-(13, 13, 1, '10.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0),
-(14, 14, 1, '10.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0),
-(15, 15, 1, '10.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0),
-(16, 16, 1, '10.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0);
+(1, 1, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 14:03:07', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(2, 2, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 14:02:51', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(3, 3, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 14:02:37', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(4, 4, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 14:02:15', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(5, 5, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 14:02:00', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(6, 6, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 14:01:26', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(7, 7, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 14:00:59', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(8, 8, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 14:00:45', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(9, 9, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 14:00:30', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(10, 10, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 14:00:07', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(11, 11, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 13:59:53', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(12, 12, 1, '0.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 0, '2014-03-26 13:58:51', NULL, 1, 0, 0, 1, 1, '0.0000', 1, 0, 0),
+(13, 13, 1, '10.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 1, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0),
+(14, 14, 1, '10.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 1, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0),
+(15, 15, 1, '10.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 1, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0),
+(16, 16, 1, '10.0000', '0.0000', 1, 0, 0, 1, '1.0000', 1, '0.0000', 1, 1, NULL, NULL, 1, 0, 1, 0, 1, '0.0000', 1, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -516,10 +516,10 @@ INSERT INTO `cataloginventory_stock_status` (`product_id`, `website_id`, `stock_
 (10, 1, 1, '0.0000', 1),
 (11, 1, 1, '0.0000', 1),
 (12, 1, 1, '0.0000', 1),
-(13, 1, 1, '10.0000', 0),
-(14, 1, 1, '10.0000', 0),
-(15, 1, 1, '10.0000', 0),
-(16, 1, 1, '10.0000', 0);
+(13, 1, 1, '10.0000', 1),
+(14, 1, 1, '10.0000', 1),
+(15, 1, 1, '10.0000', 1),
+(16, 1, 1, '10.0000', 1);
 
 -- --------------------------------------------------------
 
@@ -724,61 +724,61 @@ CREATE TABLE IF NOT EXISTS `catalogsearch_fulltext` (
   PRIMARY KEY (`fulltext_id`),
   UNIQUE KEY `UNQ_CATALOGSEARCH_FULLTEXT_PRODUCT_ID_STORE_ID` (`product_id`,`store_id`),
   FULLTEXT KEY `FTI_CATALOGSEARCH_FULLTEXT_DATA_INDEX` (`data_index`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='Catalog search result table' AUTO_INCREMENT=118 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='Catalog search result table' AUTO_INCREMENT=235 ;
 
 --
 -- Contenu de la table `catalogsearch_fulltext`
 --
 
 INSERT INTO `catalogsearch_fulltext` (`fulltext_id`, `product_id`, `store_id`, `data_index`) VALUES
-(72, 12, 3, 'GBOGOI|Taxable Goods|Limbo|Jeu indé|Jeux indé Limbo|10|FileZilla|1'),
-(88, 12, 1, 'GBOGOI|Taxable Goods|Limbo|Jeu indé|Jeux indé Limbo|10|FileZilla|1'),
-(104, 12, 2, 'GBOGOI|Taxable Goods|Limbo|Jeu indé|Jeux indé Limbo|10|FileZilla|1'),
-(71, 11, 3, 'OBEG|Taxable Goods|BF4|Battlefield 4|BF4 PC|40|1'),
-(87, 11, 1, 'OBEG|Taxable Goods|BF4|Battlefield 4|BF4 PC|40|1'),
-(103, 11, 2, 'OBEG|Taxable Goods|BF4|Battlefield 4|BF4 PC|40|1'),
-(70, 10, 3, 'OPHGE|Aucun|FF Crisis Core|FF PSP|Square Enix|0|1'),
-(86, 10, 1, 'OPHGE|Aucun|FF Crisis Core|FF PSP|Square Enix|0|1'),
-(102, 10, 2, 'OPHGE|Aucun|FF Crisis Core|FF PSP|Square Enix|0|1'),
-(69, 9, 3, 'BOIGE|Aucun|AC Liberation|PSVita, AC|Ubi|20|1'),
-(85, 9, 1, 'BOIGE|Aucun|AC Liberation|PSVita, AC|Ubi|20|1'),
-(101, 9, 2, 'BOIGE|Aucun|AC Liberation|PSVita, AC|Ubi|20|1'),
-(68, 8, 3, 'GUIFIZ|Aucun|Wario ware touched !|Jeu DS|minjeux|30|1'),
-(84, 8, 1, 'GUIFIZ|Aucun|Wario ware touched !|Jeu DS|minjeux|30|1'),
-(100, 8, 2, 'GUIFIZ|Aucun|Wario ware touched !|Jeu DS|minjeux|30|1'),
-(67, 7, 3, 'BZF|Taxable Goods|Bravely Default|LE jeu 2DS|sisi !|40|1'),
-(83, 7, 1, 'BZF|Taxable Goods|Bravely Default|LE jeu 2DS|sisi !|40|1'),
-(99, 7, 2, 'BZF|Taxable Goods|Bravely Default|LE jeu 2DS|sisi !|40|1'),
-(66, 6, 3, 'IOFBGE5|Aucun|Madworld|Sur wii !|de Platinium games|30|1'),
-(82, 6, 1, 'IOFBGE5|Aucun|Madworld|Sur wii !|de Platinium games|30|1'),
-(98, 6, 2, 'IOFBGE5|Aucun|Madworld|Sur wii !|de Platinium games|30|1'),
-(65, 5, 3, 'BUZFG|Aucun|ZombiU|WiiU game|Ubisoft montpellier|50|1'),
-(81, 5, 1, 'BUZFG|Aucun|ZombiU|WiiU game|Ubisoft montpellier|50|1'),
-(97, 5, 2, 'BUZFG|Aucun|ZombiU|WiiU game|Ubisoft montpellier|50|1'),
-(112, 4, 3, 'VHJZVFG|Aucun|Gears Of War 3|XBOX 360|TPS|60|1'),
-(113, 4, 1, 'VHJZVFG|Aucun|Gears Of War 3|XBOX 360|TPS|60|1'),
-(114, 4, 2, 'VHJZVFG|Aucun|Gears Of War 3|XBOX 360|TPS|60|1'),
-(63, 3, 3, 'ZOG|Aucun|Last of Us|Uniquement sur PS3 !|Best game 2013|70|1'),
-(79, 3, 1, 'ZOG|Aucun|Last of Us|Uniquement sur PS3 !|Best game 2013|70|1'),
-(95, 3, 2, 'ZOG|Aucun|Last of Us|Uniquement sur PS3 !|Best game 2013|70|1'),
-(62, 2, 3, 'E6EGEGEG|Aucun|Forza 5|Pour XBOX One|F5, X1|70|1'),
-(78, 2, 1, 'E6EGEGEG|Aucun|Forza 5|Pour XBOX One|F5, X1|70|1'),
-(94, 2, 2, 'E6EGEGEG|Aucun|Forza 5|Pour XBOX One|F5, X1|70|1'),
-(61, 1, 3, '3YEZEEZEHH|Aucun|Watch dogs|Watch_dogs PS4|Développé par Ubisoft|70|1'),
-(77, 1, 1, '3YEZEEZEHH|Aucun|Watch dogs|Watch_dogs PS4|Développé par Ubisoft|70|1'),
-(93, 1, 2, '3YEZEEZEHH|Aucun|Watch dogs|Watch_dogs PS4|Développé par Ubisoft|70|1'),
-(115, 13, 3, 'VFGO|Shipping|Ecran 27 pouces|27 pouces LED|LED|400|0'),
-(74, 14, 3, 'BIOG|Shipping|PC portable asus|PC portable|Asus|900|0'),
-(75, 15, 3, 'IEGBB|Shipping|Ee PC|Petit PC|C''est tout petit !|400|0'),
-(109, 16, 3, 'BOEGG|Shipping|PC Airstrike|PC gamer|SSD|1500|0'),
-(116, 13, 1, 'VFGO|Shipping|Ecran 27 pouces|27 pouces LED|LED|400|0'),
-(90, 14, 1, 'BIOG|Shipping|PC portable asus|PC portable|Asus|900|0'),
-(91, 15, 1, 'IEGBB|Shipping|Ee PC|Petit PC|C''est tout petit !|400|0'),
-(110, 16, 1, 'BOEGG|Shipping|PC Airstrike|PC gamer|SSD|1500|0'),
-(117, 13, 2, 'VFGO|Shipping|Ecran 27 pouces|27 pouces LED|LED|400|0'),
-(106, 14, 2, 'BIOG|Shipping|PC portable asus|PC portable|Asus|900|0'),
-(107, 15, 2, 'IEGBB|Shipping|Ee PC|Petit PC|C''est tout petit !|400|0'),
-(111, 16, 2, 'BOEGG|Shipping|PC Airstrike|PC gamer|SSD|1500|0');
+(193, 12, 3, 'GBOGOI|Taxable Goods|Limbo|Jeu indé|Jeux indé Limbo|10|FileZilla|1'),
+(194, 12, 1, 'GBOGOI|Taxable Goods|Limbo|Jeu indé|Jeux indé Limbo|10|FileZilla|1'),
+(195, 12, 2, 'GBOGOI|Taxable Goods|Limbo|Jeu indé|Jeux indé Limbo|10|FileZilla|1'),
+(196, 11, 3, 'OBEG|Taxable Goods|BF4|Battlefield 4|BF4 PC|40|1'),
+(197, 11, 1, 'OBEG|Taxable Goods|BF4|Battlefield 4|BF4 PC|40|1'),
+(198, 11, 2, 'OBEG|Taxable Goods|BF4|Battlefield 4|BF4 PC|40|1'),
+(199, 10, 3, 'OPHGE|Aucun|FF Crisis Core|FF PSP|Square Enix|0|1'),
+(200, 10, 1, 'OPHGE|Aucun|FF Crisis Core|FF PSP|Square Enix|0|1'),
+(201, 10, 2, 'OPHGE|Aucun|FF Crisis Core|FF PSP|Square Enix|0|1'),
+(205, 9, 3, 'BOIGE|Aucun|AC Liberation|PSVita, AC|Ubi|20|1'),
+(206, 9, 1, 'BOIGE|Aucun|AC Liberation|PSVita, AC|Ubi|20|1'),
+(207, 9, 2, 'BOIGE|Aucun|AC Liberation|PSVita, AC|Ubi|20|1'),
+(208, 8, 3, 'GUIFIZ|Aucun|Wario ware touched !|Jeu DS|minjeux|30|1'),
+(209, 8, 1, 'GUIFIZ|Aucun|Wario ware touched !|Jeu DS|minjeux|30|1'),
+(210, 8, 2, 'GUIFIZ|Aucun|Wario ware touched !|Jeu DS|minjeux|30|1'),
+(211, 7, 3, 'BZF|Taxable Goods|Bravely Default|LE jeu 2DS|sisi !|40|1'),
+(212, 7, 1, 'BZF|Taxable Goods|Bravely Default|LE jeu 2DS|sisi !|40|1'),
+(213, 7, 2, 'BZF|Taxable Goods|Bravely Default|LE jeu 2DS|sisi !|40|1'),
+(217, 6, 3, 'IOFBGE5|Aucun|Madworld|Sur wii !|de Platinium games|30|1'),
+(218, 6, 1, 'IOFBGE5|Aucun|Madworld|Sur wii !|de Platinium games|30|1'),
+(219, 6, 2, 'IOFBGE5|Aucun|Madworld|Sur wii !|de Platinium games|30|1'),
+(220, 5, 3, 'BUZFG|Aucun|ZombiU|WiiU game|Ubisoft montpellier|50|1'),
+(221, 5, 1, 'BUZFG|Aucun|ZombiU|WiiU game|Ubisoft montpellier|50|1'),
+(222, 5, 2, 'BUZFG|Aucun|ZombiU|WiiU game|Ubisoft montpellier|50|1'),
+(223, 4, 3, 'VHJZVFG|Aucun|Gears Of War 3|XBOX 360|TPS|60|1'),
+(224, 4, 1, 'VHJZVFG|Aucun|Gears Of War 3|XBOX 360|TPS|60|1'),
+(225, 4, 2, 'VHJZVFG|Aucun|Gears Of War 3|XBOX 360|TPS|60|1'),
+(226, 3, 3, 'ZOG|Aucun|Last of Us|Uniquement sur PS3 !|Best game 2013|70|1'),
+(227, 3, 1, 'ZOG|Aucun|Last of Us|Uniquement sur PS3 !|Best game 2013|70|1'),
+(228, 3, 2, 'ZOG|Aucun|Last of Us|Uniquement sur PS3 !|Best game 2013|70|1'),
+(229, 2, 3, 'E6EGEGEG|Aucun|Forza 5|Pour XBOX One|F5, X1|70|1'),
+(230, 2, 1, 'E6EGEGEG|Aucun|Forza 5|Pour XBOX One|F5, X1|70|1'),
+(231, 2, 2, 'E6EGEGEG|Aucun|Forza 5|Pour XBOX One|F5, X1|70|1'),
+(232, 1, 3, '3YEZEEZEHH|Aucun|Watch dogs|Watch_dogs PS4|Développé par Ubisoft|70|1'),
+(233, 1, 1, '3YEZEEZEHH|Aucun|Watch dogs|Watch_dogs PS4|Développé par Ubisoft|70|1'),
+(234, 1, 2, '3YEZEEZEHH|Aucun|Watch dogs|Watch_dogs PS4|Développé par Ubisoft|70|1'),
+(190, 13, 3, 'VFGO|Shipping|Ecran 27 pouces|27 pouces LED|LED|400|1'),
+(187, 14, 3, 'BIOG|Shipping|PC portable asus|PC portable|Asus|900|1'),
+(184, 15, 3, 'IEGBB|Shipping|Ee PC|Petit PC|C''est tout petit !|400|1'),
+(181, 16, 3, 'BOEGG|Shipping|PC Airstrike|PC gamer|SSD|1500|1'),
+(191, 13, 1, 'VFGO|Shipping|Ecran 27 pouces|27 pouces LED|LED|400|1'),
+(188, 14, 1, 'BIOG|Shipping|PC portable asus|PC portable|Asus|900|1'),
+(185, 15, 1, 'IEGBB|Shipping|Ee PC|Petit PC|C''est tout petit !|400|1'),
+(182, 16, 1, 'BOEGG|Shipping|PC Airstrike|PC gamer|SSD|1500|1'),
+(192, 13, 2, 'VFGO|Shipping|Ecran 27 pouces|27 pouces LED|LED|400|1'),
+(189, 14, 2, 'BIOG|Shipping|PC portable asus|PC portable|Asus|900|1'),
+(186, 15, 2, 'IEGBB|Shipping|Ee PC|Petit PC|C''est tout petit !|400|1'),
+(183, 16, 2, 'BOEGG|Shipping|PC Airstrike|PC gamer|SSD|1500|1');
 
 -- --------------------------------------------------------
 
@@ -908,22 +908,22 @@ INSERT INTO `catalog_category_entity` (`entity_id`, `entity_type_id`, `attribute
 (2, 3, 3, 1, '2014-03-20 18:26:46', '2014-03-20 18:26:46', '1/2', 1, 1, 0),
 (3, 3, 3, 1, '2014-03-20 18:50:21', '2014-03-20 18:50:21', '1/3', 2, 1, 4),
 (4, 3, 3, 1, '2014-03-20 18:50:58', '2014-03-20 19:03:56', '1/4', 3, 1, 12),
-(5, 3, 3, 3, '2014-03-20 18:52:01', '2014-03-21 14:49:51', '1/3/5', 1, 2, 0),
-(6, 3, 3, 3, '2014-03-20 18:52:52', '2014-03-21 14:47:57', '1/3/6', 2, 2, 0),
-(7, 3, 3, 3, '2014-03-20 18:53:49', '2014-03-20 20:41:06', '1/3/7', 3, 2, 0),
-(8, 3, 3, 3, '2014-03-20 18:54:36', '2014-03-20 20:41:16', '1/3/8', 4, 2, 0),
-(9, 3, 3, 4, '2014-03-20 18:57:32', '2014-03-21 15:04:08', '1/4/9', 1, 2, 0),
-(10, 3, 3, 4, '2014-03-20 18:58:18', '2014-03-20 18:58:18', '1/4/10', 2, 2, 0),
-(11, 3, 3, 4, '2014-03-20 18:59:16', '2014-03-20 18:59:43', '1/4/11', 3, 2, 0),
-(12, 3, 3, 4, '2014-03-20 19:01:41', '2014-03-20 19:01:41', '1/4/12', 4, 2, 0),
-(13, 3, 3, 4, '2014-03-20 19:02:55', '2014-03-20 19:02:55', '1/4/13', 5, 2, 0),
-(14, 3, 3, 4, '2014-03-20 19:03:47', '2014-03-20 19:03:47', '1/4/14', 6, 2, 0),
-(15, 3, 3, 4, '2014-03-20 19:05:46', '2014-03-20 19:05:46', '1/4/15', 7, 2, 0),
-(16, 3, 3, 4, '2014-03-20 19:06:25', '2014-03-20 19:06:25', '1/4/16', 8, 2, 0),
-(17, 3, 3, 4, '2014-03-20 19:07:54', '2014-03-20 19:08:19', '1/4/17', 9, 2, 0),
-(18, 3, 3, 4, '2014-03-20 19:09:07', '2014-03-20 19:09:07', '1/4/18', 10, 2, 0),
-(19, 3, 3, 4, '2014-03-20 19:11:15', '2014-03-20 19:11:15', '1/4/19', 11, 2, 0),
-(20, 3, 3, 4, '2014-03-20 19:12:08', '2014-03-20 19:12:08', '1/4/20', 12, 2, 0);
+(5, 3, 3, 3, '2014-03-20 18:52:01', '2014-03-26 14:24:24', '1/3/5', 1, 2, 0),
+(6, 3, 3, 3, '2014-03-20 18:52:52', '2014-03-26 14:24:15', '1/3/6', 2, 2, 0),
+(7, 3, 3, 3, '2014-03-20 18:53:49', '2014-03-26 14:24:32', '1/3/7', 3, 2, 0),
+(8, 3, 3, 3, '2014-03-20 18:54:36', '2014-03-26 14:24:38', '1/3/8', 4, 2, 0),
+(9, 3, 3, 4, '2014-03-20 18:57:32', '2014-03-26 14:24:50', '1/4/9', 1, 2, 0),
+(10, 3, 3, 4, '2014-03-20 18:58:18', '2014-03-26 14:24:57', '1/4/10', 2, 2, 0),
+(11, 3, 3, 4, '2014-03-20 18:59:16', '2014-03-26 14:25:24', '1/4/11', 3, 2, 0),
+(12, 3, 3, 4, '2014-03-20 19:01:41', '2014-03-26 14:25:32', '1/4/12', 4, 2, 0),
+(13, 3, 3, 4, '2014-03-20 19:02:55', '2014-03-26 14:25:41', '1/4/13', 5, 2, 0),
+(14, 3, 3, 4, '2014-03-20 19:03:47', '2014-03-26 14:34:41', '1/4/14', 6, 2, 0),
+(15, 3, 3, 4, '2014-03-20 19:05:46', '2014-03-26 14:28:30', '1/4/15', 7, 2, 0),
+(16, 3, 3, 4, '2014-03-20 19:06:25', '2014-03-26 14:29:00', '1/4/16', 8, 2, 0),
+(17, 3, 3, 4, '2014-03-20 19:07:54', '2014-03-26 14:29:45', '1/4/17', 9, 2, 0),
+(18, 3, 3, 4, '2014-03-20 19:09:07', '2014-03-26 14:29:53', '1/4/18', 10, 2, 0),
+(19, 3, 3, 4, '2014-03-20 19:11:15', '2014-03-26 14:31:28', '1/4/19', 11, 2, 0),
+(20, 3, 3, 4, '2014-03-20 19:12:08', '2014-03-26 14:32:15', '1/4/20', 12, 2, 0);
 
 -- --------------------------------------------------------
 
@@ -943,7 +943,7 @@ CREATE TABLE IF NOT EXISTS `catalog_category_entity_datetime` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DATETIME_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DATETIME_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_DATETIME_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table' AUTO_INCREMENT=51 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table' AUTO_INCREMENT=91 ;
 
 --
 -- Contenu de la table `catalog_category_entity_datetime`
@@ -1049,7 +1049,7 @@ CREATE TABLE IF NOT EXISTS `catalog_category_entity_int` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_INT_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_INT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_INT_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Integer Attribute Backend Table' AUTO_INCREMENT=126 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Integer Attribute Backend Table' AUTO_INCREMENT=146 ;
 
 --
 -- Contenu de la table `catalog_category_entity_int`
@@ -1189,7 +1189,7 @@ CREATE TABLE IF NOT EXISTS `catalog_category_entity_text` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_TEXT_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_TEXT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_TEXT_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Text Attribute Backend Table' AUTO_INCREMENT=123 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Text Attribute Backend Table' AUTO_INCREMENT=203 ;
 
 --
 -- Contenu de la table `catalog_category_entity_text`
@@ -1309,7 +1309,7 @@ CREATE TABLE IF NOT EXISTS `catalog_category_entity_varchar` (
   KEY `IDX_CATALOG_CATEGORY_ENTITY_VARCHAR_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_VARCHAR_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_CATEGORY_ENTITY_VARCHAR_STORE_ID` (`store_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Varchar Attribute Backend Table' AUTO_INCREMENT=185 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Category Varchar Attribute Backend Table' AUTO_INCREMENT=243 ;
 
 --
 -- Contenu de la table `catalog_category_entity_varchar`
@@ -1466,7 +1466,23 @@ INSERT INTO `catalog_category_entity_varchar` (`value_id`, `entity_type_id`, `at
 (181, 3, 57, 1, 7, 'ordinateurs-de-bureau.html'),
 (182, 3, 57, 0, 7, 'ordinateurs-de-bureau.html'),
 (183, 3, 57, 1, 8, 'ecrans.html'),
-(184, 3, 57, 0, 8, 'ecrans.html');
+(184, 3, 57, 0, 8, 'ecrans.html'),
+(187, 3, 45, 0, 5, 'can-stock-photo_csp0550637.jpg'),
+(190, 3, 45, 0, 6, '05925146-photo-asus-1015e.jpg'),
+(196, 3, 45, 0, 7, 'logo-ordinateur_1.gif'),
+(199, 3, 45, 0, 8, '400_F_30161323_E53ZXmzSRFRd83vHz9LujrF6Mqfp60UB.jpg'),
+(202, 3, 45, 0, 9, 'ps4.jpg'),
+(205, 3, 45, 0, 10, 'ps3.jpg'),
+(208, 3, 45, 0, 11, 'Xbox-One-Logo-Wallpaper-HD-Dekstop-Games.jpg'),
+(211, 3, 45, 0, 12, 'xbox_logo_1.png'),
+(214, 3, 45, 0, 13, 'Wii-U-Logo.png'),
+(217, 3, 45, 0, 14, 'wii-logo.jpg'),
+(224, 3, 45, 0, 15, 'logo-3ds.jpg'),
+(227, 3, 45, 0, 16, 'ds.jpg'),
+(230, 3, 45, 0, 17, 'PS-Vita-logo.jpg'),
+(233, 3, 45, 0, 18, 'psp_logo_black-1ad58b.jpg'),
+(236, 3, 45, 0, 19, 'GamesForWindows.png'),
+(239, 3, 45, 0, 20, 'STEAM-LOGO.jpg');
 
 -- --------------------------------------------------------
 
@@ -2145,22 +2161,22 @@ CREATE TABLE IF NOT EXISTS `catalog_product_entity` (
 --
 
 INSERT INTO `catalog_product_entity` (`entity_id`, `entity_type_id`, `attribute_set_id`, `type_id`, `sku`, `has_options`, `required_options`, `created_at`, `updated_at`) VALUES
-(1, 4, 4, 'simple', '3YEZEEZEHH', 0, 0, '2014-03-21 14:57:45', '2014-03-21 14:57:45'),
-(2, 4, 4, 'simple', 'E6EGEGEG', 0, 0, '2014-03-21 15:26:36', '2014-03-21 15:26:36'),
-(3, 4, 4, 'simple', 'ZOG', 0, 0, '2014-03-21 15:28:18', '2014-03-21 15:28:18'),
-(4, 4, 4, 'simple', 'VHJZVFG', 0, 0, '2014-03-21 15:29:50', '2014-03-21 16:19:39'),
-(5, 4, 4, 'simple', 'BUZFG', 0, 0, '2014-03-21 15:31:53', '2014-03-21 15:31:53'),
-(6, 4, 4, 'simple', 'IOFBGE5', 0, 0, '2014-03-21 15:34:40', '2014-03-21 15:34:40'),
-(7, 4, 4, 'simple', 'BZF', 0, 0, '2014-03-21 15:36:35', '2014-03-21 15:36:35'),
-(8, 4, 4, 'simple', 'GUIFIZ', 0, 0, '2014-03-21 15:40:02', '2014-03-21 15:40:02'),
-(9, 4, 4, 'simple', 'BOIGE', 0, 0, '2014-03-21 15:42:09', '2014-03-21 15:42:09'),
-(10, 4, 4, 'simple', 'OPHGE', 0, 0, '2014-03-21 15:43:36', '2014-03-21 15:43:48'),
-(11, 4, 4, 'simple', 'OBEG', 0, 0, '2014-03-21 15:45:20', '2014-03-21 15:45:20'),
-(12, 4, 4, 'downloadable', 'GBOGOI', 1, 1, '2014-03-21 15:49:46', '2014-03-21 15:49:46'),
-(13, 4, 10, 'simple', 'VFGO', 0, 0, '2014-03-21 15:56:15', '2014-03-21 16:20:25'),
-(14, 4, 9, 'simple', 'BIOG', 0, 0, '2014-03-21 15:57:52', '2014-03-21 16:03:34'),
-(15, 4, 9, 'simple', 'IEGBB', 0, 0, '2014-03-21 16:00:17', '2014-03-21 16:00:17'),
-(16, 4, 9, 'simple', 'BOEGG', 0, 0, '2014-03-21 16:02:10', '2014-03-21 16:18:36');
+(1, 4, 4, 'simple', '3YEZEEZEHH', 0, 0, '2014-03-21 14:57:45', '2014-03-26 14:03:06'),
+(2, 4, 4, 'simple', 'E6EGEGEG', 0, 0, '2014-03-21 15:26:36', '2014-03-26 14:02:51'),
+(3, 4, 4, 'simple', 'ZOG', 0, 0, '2014-03-21 15:28:18', '2014-03-26 14:02:37'),
+(4, 4, 4, 'simple', 'VHJZVFG', 0, 0, '2014-03-21 15:29:50', '2014-03-26 14:02:15'),
+(5, 4, 4, 'simple', 'BUZFG', 0, 0, '2014-03-21 15:31:53', '2014-03-26 14:02:00'),
+(6, 4, 4, 'simple', 'IOFBGE5', 0, 0, '2014-03-21 15:34:40', '2014-03-26 14:01:26'),
+(7, 4, 4, 'simple', 'BZF', 0, 0, '2014-03-21 15:36:35', '2014-03-26 14:00:59'),
+(8, 4, 4, 'simple', 'GUIFIZ', 0, 0, '2014-03-21 15:40:02', '2014-03-26 14:00:45'),
+(9, 4, 4, 'simple', 'BOIGE', 0, 0, '2014-03-21 15:42:09', '2014-03-26 14:00:30'),
+(10, 4, 4, 'simple', 'OPHGE', 0, 0, '2014-03-21 15:43:36', '2014-03-26 14:00:07'),
+(11, 4, 4, 'simple', 'OBEG', 0, 0, '2014-03-21 15:45:20', '2014-03-26 13:59:53'),
+(12, 4, 4, 'downloadable', 'GBOGOI', 1, 1, '2014-03-21 15:49:46', '2014-03-26 13:58:51'),
+(13, 4, 10, 'simple', 'VFGO', 0, 0, '2014-03-21 15:56:15', '2014-03-26 13:58:37'),
+(14, 4, 9, 'simple', 'BIOG', 0, 0, '2014-03-21 15:57:52', '2014-03-26 13:58:21'),
+(15, 4, 9, 'simple', 'IEGBB', 0, 0, '2014-03-21 16:00:17', '2014-03-26 13:58:02'),
+(16, 4, 9, 'simple', 'BOEGG', 0, 0, '2014-03-21 16:02:10', '2014-03-26 13:57:33');
 
 -- --------------------------------------------------------
 
@@ -2180,7 +2196,7 @@ CREATE TABLE IF NOT EXISTS `catalog_product_entity_datetime` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DATETIME_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DATETIME_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DATETIME_ENTITY_ID` (`entity_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Datetime Attribute Backend Table' AUTO_INCREMENT=103 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Datetime Attribute Backend Table' AUTO_INCREMENT=337 ;
 
 --
 -- Contenu de la table `catalog_product_entity_datetime`
@@ -2302,7 +2318,7 @@ CREATE TABLE IF NOT EXISTS `catalog_product_entity_decimal` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DECIMAL_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DECIMAL_ENTITY_ID` (`entity_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_DECIMAL_ATTRIBUTE_ID` (`attribute_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Decimal Attribute Backend Table' AUTO_INCREMENT=68 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Decimal Attribute Backend Table' AUTO_INCREMENT=187 ;
 
 --
 -- Contenu de la table `catalog_product_entity_decimal`
@@ -2433,7 +2449,7 @@ CREATE TABLE IF NOT EXISTS `catalog_product_entity_int` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_INT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_INT_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_INT_ENTITY_ID` (`entity_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table' AUTO_INCREMENT=66 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table' AUTO_INCREMENT=68 ;
 
 --
 -- Contenu de la table `catalog_product_entity_int`
@@ -2520,7 +2536,29 @@ CREATE TABLE IF NOT EXISTS `catalog_product_entity_media_gallery` (
   PRIMARY KEY (`value_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_MEDIA_GALLERY_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_MEDIA_GALLERY_ENTITY_ID` (`entity_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Media Gallery Attribute Backend Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Media Gallery Attribute Backend Table' AUTO_INCREMENT=17 ;
+
+--
+-- Contenu de la table `catalog_product_entity_media_gallery`
+--
+
+INSERT INTO `catalog_product_entity_media_gallery` (`value_id`, `attribute_id`, `entity_id`, `value`) VALUES
+(1, 88, 16, '/2/3/232581.jpg'),
+(2, 88, 15, '/i/m/img_78131_asus-eee-pc-1000h.jpg'),
+(3, 88, 14, '/a/s/asus-n71vn-01.jpg'),
+(4, 88, 13, '/i/i/iiyama-b2713hds.jpg'),
+(5, 88, 12, '/l/i/limbo-jaquette.jpg'),
+(6, 88, 11, '/b/a/battlefield-4-jaquette-pc_02fa043600093803.jpg'),
+(7, 88, 10, '/m/e/me0000970525_2.jpg'),
+(8, 88, 9, '/m/e/me3050044344_2.jpg'),
+(9, 88, 8, '/w/a/wario-ware-touched_jaquette.jpg'),
+(10, 88, 7, '/5/2/526947463887c6.jpg'),
+(11, 88, 6, '/m/a/madworld_wii_jaquette.jpg'),
+(12, 88, 5, '/z/o/zombiu_wii_u_jaquette_002.jpg'),
+(13, 88, 4, '/3/-/3-215-gears-of-war-3.jpg'),
+(14, 88, 3, '/j/a/jaquette-the-last-of-us-playstation-3-ps3-cover-avant-g-1355137960.jpg'),
+(15, 88, 2, '/1/3/1369392699_forza_5_jaquette_officielle_2_.jpg'),
+(16, 88, 1, '/w/a/watch-dogs-ps4-jaquette-1607001.jpg');
 
 -- --------------------------------------------------------
 
@@ -2537,6 +2575,28 @@ CREATE TABLE IF NOT EXISTS `catalog_product_entity_media_gallery_value` (
   PRIMARY KEY (`value_id`,`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_MEDIA_GALLERY_VALUE_STORE_ID` (`store_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Media Gallery Attribute Value Table';
+
+--
+-- Contenu de la table `catalog_product_entity_media_gallery_value`
+--
+
+INSERT INTO `catalog_product_entity_media_gallery_value` (`value_id`, `store_id`, `label`, `position`, `disabled`) VALUES
+(1, 0, NULL, 1, 0),
+(2, 0, NULL, 1, 0),
+(3, 0, NULL, 1, 0),
+(4, 0, NULL, 1, 0),
+(5, 0, NULL, 1, 0),
+(6, 0, NULL, 1, 0),
+(7, 0, NULL, 1, 0),
+(8, 0, NULL, 1, 0),
+(9, 0, NULL, 1, 0),
+(10, 0, NULL, 1, 0),
+(11, 0, NULL, 1, 0),
+(12, 0, NULL, 1, 0),
+(13, 0, NULL, 1, 0),
+(14, 0, NULL, 1, 0),
+(15, 0, NULL, 1, 0),
+(16, 0, NULL, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -2556,7 +2616,7 @@ CREATE TABLE IF NOT EXISTS `catalog_product_entity_text` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_TEXT_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_TEXT_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_TEXT_ENTITY_ID` (`entity_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Text Attribute Backend Table' AUTO_INCREMENT=67 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Text Attribute Backend Table' AUTO_INCREMENT=145 ;
 
 --
 -- Contenu de la table `catalog_product_entity_text`
@@ -2667,7 +2727,7 @@ CREATE TABLE IF NOT EXISTS `catalog_product_entity_varchar` (
   KEY `IDX_CATALOG_PRODUCT_ENTITY_VARCHAR_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_VARCHAR_STORE_ID` (`store_id`),
   KEY `IDX_CATALOG_PRODUCT_ENTITY_VARCHAR_ENTITY_ID` (`entity_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Varchar Attribute Backend Table' AUTO_INCREMENT=277 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Catalog Product Varchar Attribute Backend Table' AUTO_INCREMENT=611 ;
 
 --
 -- Contenu de la table `catalog_product_entity_varchar`
@@ -2681,9 +2741,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (5, 4, 119, 0, 1, '4'),
 (6, 4, 82, 0, 1, NULL),
 (7, 4, 84, 0, 1, NULL),
-(8, 4, 85, 0, 1, 'no_selection'),
-(9, 4, 86, 0, 1, 'no_selection'),
-(10, 4, 87, 0, 1, 'no_selection'),
+(8, 4, 85, 0, 1, '/w/a/watch-dogs-ps4-jaquette-1607001.jpg'),
+(9, 4, 86, 0, 1, '/w/a/watch-dogs-ps4-jaquette-1607001.jpg'),
+(10, 4, 87, 0, 1, '/w/a/watch-dogs-ps4-jaquette-1607001.jpg'),
 (11, 4, 103, 0, 1, NULL),
 (12, 4, 107, 0, 1, NULL),
 (13, 4, 109, 0, 1, 'container2'),
@@ -2697,9 +2757,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (21, 4, 119, 0, 2, '4'),
 (22, 4, 82, 0, 2, NULL),
 (23, 4, 84, 0, 2, NULL),
-(24, 4, 85, 0, 2, 'no_selection'),
-(25, 4, 86, 0, 2, 'no_selection'),
-(26, 4, 87, 0, 2, 'no_selection'),
+(24, 4, 85, 0, 2, '/1/3/1369392699_forza_5_jaquette_officielle_2_.jpg'),
+(25, 4, 86, 0, 2, '/1/3/1369392699_forza_5_jaquette_officielle_2_.jpg'),
+(26, 4, 87, 0, 2, '/1/3/1369392699_forza_5_jaquette_officielle_2_.jpg'),
 (27, 4, 103, 0, 2, NULL),
 (28, 4, 107, 0, 2, NULL),
 (29, 4, 109, 0, 2, 'container2'),
@@ -2713,9 +2773,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (37, 4, 119, 0, 3, '4'),
 (38, 4, 82, 0, 3, NULL),
 (39, 4, 84, 0, 3, NULL),
-(40, 4, 85, 0, 3, 'no_selection'),
-(41, 4, 86, 0, 3, 'no_selection'),
-(42, 4, 87, 0, 3, 'no_selection'),
+(40, 4, 85, 0, 3, '/j/a/jaquette-the-last-of-us-playstation-3-ps3-cover-avant-g-1355137960.jpg'),
+(41, 4, 86, 0, 3, '/j/a/jaquette-the-last-of-us-playstation-3-ps3-cover-avant-g-1355137960.jpg'),
+(42, 4, 87, 0, 3, '/j/a/jaquette-the-last-of-us-playstation-3-ps3-cover-avant-g-1355137960.jpg'),
 (43, 4, 103, 0, 3, NULL),
 (44, 4, 107, 0, 3, NULL),
 (45, 4, 109, 0, 3, 'container2'),
@@ -2729,9 +2789,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (53, 4, 119, 0, 4, '4'),
 (54, 4, 82, 0, 4, NULL),
 (55, 4, 84, 0, 4, NULL),
-(56, 4, 85, 0, 4, 'no_selection'),
-(57, 4, 86, 0, 4, 'no_selection'),
-(58, 4, 87, 0, 4, 'no_selection'),
+(56, 4, 85, 0, 4, '/3/-/3-215-gears-of-war-3.jpg'),
+(57, 4, 86, 0, 4, '/3/-/3-215-gears-of-war-3.jpg'),
+(58, 4, 87, 0, 4, '/3/-/3-215-gears-of-war-3.jpg'),
 (59, 4, 103, 0, 4, NULL),
 (60, 4, 107, 0, 4, NULL),
 (61, 4, 109, 0, 4, 'container2'),
@@ -2745,9 +2805,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (69, 4, 119, 0, 5, '4'),
 (70, 4, 82, 0, 5, NULL),
 (71, 4, 84, 0, 5, NULL),
-(72, 4, 85, 0, 5, 'no_selection'),
-(73, 4, 86, 0, 5, 'no_selection'),
-(74, 4, 87, 0, 5, 'no_selection'),
+(72, 4, 85, 0, 5, '/z/o/zombiu_wii_u_jaquette_002.jpg'),
+(73, 4, 86, 0, 5, '/z/o/zombiu_wii_u_jaquette_002.jpg'),
+(74, 4, 87, 0, 5, '/z/o/zombiu_wii_u_jaquette_002.jpg'),
 (75, 4, 103, 0, 5, NULL),
 (76, 4, 107, 0, 5, NULL),
 (77, 4, 109, 0, 5, 'container2'),
@@ -2761,9 +2821,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (85, 4, 119, 0, 6, '4'),
 (86, 4, 82, 0, 6, NULL),
 (87, 4, 84, 0, 6, NULL),
-(88, 4, 85, 0, 6, 'no_selection'),
-(89, 4, 86, 0, 6, 'no_selection'),
-(90, 4, 87, 0, 6, 'no_selection'),
+(88, 4, 85, 0, 6, '/m/a/madworld_wii_jaquette.jpg'),
+(89, 4, 86, 0, 6, '/m/a/madworld_wii_jaquette.jpg'),
+(90, 4, 87, 0, 6, '/m/a/madworld_wii_jaquette.jpg'),
 (91, 4, 103, 0, 6, NULL),
 (92, 4, 107, 0, 6, NULL),
 (93, 4, 109, 0, 6, 'container2'),
@@ -2777,9 +2837,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (101, 4, 119, 0, 7, '4'),
 (102, 4, 82, 0, 7, NULL),
 (103, 4, 84, 0, 7, NULL),
-(104, 4, 85, 0, 7, 'no_selection'),
-(105, 4, 86, 0, 7, 'no_selection'),
-(106, 4, 87, 0, 7, 'no_selection'),
+(104, 4, 85, 0, 7, '/5/2/526947463887c6.jpg'),
+(105, 4, 86, 0, 7, '/5/2/526947463887c6.jpg'),
+(106, 4, 87, 0, 7, '/5/2/526947463887c6.jpg'),
 (107, 4, 103, 0, 7, NULL),
 (108, 4, 107, 0, 7, NULL),
 (109, 4, 109, 0, 7, 'container2'),
@@ -2793,9 +2853,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (117, 4, 119, 0, 8, '4'),
 (118, 4, 82, 0, 8, NULL),
 (119, 4, 84, 0, 8, NULL),
-(120, 4, 85, 0, 8, 'no_selection'),
-(121, 4, 86, 0, 8, 'no_selection'),
-(122, 4, 87, 0, 8, 'no_selection'),
+(120, 4, 85, 0, 8, '/w/a/wario-ware-touched_jaquette.jpg'),
+(121, 4, 86, 0, 8, '/w/a/wario-ware-touched_jaquette.jpg'),
+(122, 4, 87, 0, 8, '/w/a/wario-ware-touched_jaquette.jpg'),
 (123, 4, 103, 0, 8, NULL),
 (124, 4, 107, 0, 8, NULL),
 (125, 4, 109, 0, 8, 'container2'),
@@ -2809,9 +2869,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (133, 4, 119, 0, 9, '4'),
 (134, 4, 82, 0, 9, NULL),
 (135, 4, 84, 0, 9, NULL),
-(136, 4, 85, 0, 9, 'no_selection'),
-(137, 4, 86, 0, 9, 'no_selection'),
-(138, 4, 87, 0, 9, 'no_selection'),
+(136, 4, 85, 0, 9, '/m/e/me3050044344_2.jpg'),
+(137, 4, 86, 0, 9, '/m/e/me3050044344_2.jpg'),
+(138, 4, 87, 0, 9, '/m/e/me3050044344_2.jpg'),
 (139, 4, 103, 0, 9, NULL),
 (140, 4, 107, 0, 9, NULL),
 (141, 4, 109, 0, 9, 'container2'),
@@ -2825,9 +2885,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (149, 4, 119, 0, 10, '4'),
 (150, 4, 82, 0, 10, NULL),
 (151, 4, 84, 0, 10, NULL),
-(152, 4, 85, 0, 10, 'no_selection'),
-(153, 4, 86, 0, 10, 'no_selection'),
-(154, 4, 87, 0, 10, 'no_selection'),
+(152, 4, 85, 0, 10, '/m/e/me0000970525_2.jpg'),
+(153, 4, 86, 0, 10, '/m/e/me0000970525_2.jpg'),
+(154, 4, 87, 0, 10, '/m/e/me0000970525_2.jpg'),
 (155, 4, 103, 0, 10, NULL),
 (156, 4, 107, 0, 10, NULL),
 (157, 4, 109, 0, 10, 'container2'),
@@ -2841,9 +2901,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (171, 4, 119, 0, 11, '4'),
 (172, 4, 82, 0, 11, NULL),
 (173, 4, 84, 0, 11, NULL),
-(174, 4, 85, 0, 11, 'no_selection'),
-(175, 4, 86, 0, 11, 'no_selection'),
-(176, 4, 87, 0, 11, 'no_selection'),
+(174, 4, 85, 0, 11, '/b/a/battlefield-4-jaquette-pc_02fa043600093803.jpg'),
+(175, 4, 86, 0, 11, '/b/a/battlefield-4-jaquette-pc_02fa043600093803.jpg'),
+(176, 4, 87, 0, 11, '/b/a/battlefield-4-jaquette-pc_02fa043600093803.jpg'),
 (177, 4, 103, 0, 11, NULL),
 (178, 4, 107, 0, 11, NULL),
 (179, 4, 109, 0, 11, 'container2'),
@@ -2856,9 +2916,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (186, 4, 119, 0, 12, '4'),
 (187, 4, 82, 0, 12, NULL),
 (188, 4, 84, 0, 12, NULL),
-(189, 4, 85, 0, 12, 'no_selection'),
-(190, 4, 86, 0, 12, 'no_selection'),
-(191, 4, 87, 0, 12, 'no_selection'),
+(189, 4, 85, 0, 12, '/l/i/limbo-jaquette.jpg'),
+(190, 4, 86, 0, 12, '/l/i/limbo-jaquette.jpg'),
+(191, 4, 87, 0, 12, '/l/i/limbo-jaquette.jpg'),
 (192, 4, 103, 0, 12, NULL),
 (193, 4, 107, 0, 12, NULL),
 (194, 4, 109, 0, 12, 'container2'),
@@ -2875,9 +2935,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (205, 4, 119, 0, 13, '4'),
 (206, 4, 82, 0, 13, NULL),
 (207, 4, 84, 0, 13, NULL),
-(208, 4, 85, 0, 13, 'no_selection'),
-(209, 4, 86, 0, 13, 'no_selection'),
-(210, 4, 87, 0, 13, 'no_selection'),
+(208, 4, 85, 0, 13, '/i/i/iiyama-b2713hds.jpg'),
+(209, 4, 86, 0, 13, '/i/i/iiyama-b2713hds.jpg'),
+(210, 4, 87, 0, 13, '/i/i/iiyama-b2713hds.jpg'),
 (211, 4, 103, 0, 13, NULL),
 (212, 4, 107, 0, 13, NULL),
 (213, 4, 109, 0, 13, 'container2'),
@@ -2895,9 +2955,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (225, 4, 119, 0, 14, '4'),
 (226, 4, 82, 0, 14, NULL),
 (227, 4, 84, 0, 14, NULL),
-(228, 4, 85, 0, 14, 'no_selection'),
-(229, 4, 86, 0, 14, 'no_selection'),
-(230, 4, 87, 0, 14, 'no_selection'),
+(228, 4, 85, 0, 14, '/a/s/asus-n71vn-01.jpg'),
+(229, 4, 86, 0, 14, '/a/s/asus-n71vn-01.jpg'),
+(230, 4, 87, 0, 14, '/a/s/asus-n71vn-01.jpg'),
 (231, 4, 103, 0, 14, NULL),
 (232, 4, 107, 0, 14, NULL),
 (233, 4, 109, 0, 14, 'container2'),
@@ -2915,9 +2975,9 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (245, 4, 119, 0, 15, '4'),
 (246, 4, 82, 0, 15, NULL),
 (247, 4, 84, 0, 15, NULL),
-(248, 4, 85, 0, 15, 'no_selection'),
-(249, 4, 86, 0, 15, 'no_selection'),
-(250, 4, 87, 0, 15, 'no_selection'),
+(248, 4, 85, 0, 15, '/i/m/img_78131_asus-eee-pc-1000h.jpg'),
+(249, 4, 86, 0, 15, '/i/m/img_78131_asus-eee-pc-1000h.jpg'),
+(250, 4, 87, 0, 15, '/i/m/img_78131_asus-eee-pc-1000h.jpg'),
 (251, 4, 103, 0, 15, NULL),
 (252, 4, 107, 0, 15, NULL),
 (253, 4, 109, 0, 15, 'container2'),
@@ -2935,15 +2995,63 @@ INSERT INTO `catalog_product_entity_varchar` (`value_id`, `entity_type_id`, `att
 (265, 4, 119, 0, 16, '4'),
 (266, 4, 82, 0, 16, NULL),
 (267, 4, 84, 0, 16, NULL),
-(268, 4, 85, 0, 16, 'no_selection'),
-(269, 4, 86, 0, 16, 'no_selection'),
-(270, 4, 87, 0, 16, 'no_selection'),
+(268, 4, 85, 0, 16, '/2/3/232581.jpg'),
+(269, 4, 86, 0, 16, '/2/3/232581.jpg'),
+(270, 4, 87, 0, 16, '/2/3/232581.jpg'),
 (271, 4, 103, 0, 16, NULL),
 (272, 4, 107, 0, 16, NULL),
 (273, 4, 109, 0, 16, 'container2'),
 (274, 4, 122, 0, 16, NULL),
 (275, 4, 98, 3, 16, 'pc-airstrike.html'),
-(276, 4, 98, 0, 16, 'pc-airstrike.html');
+(276, 4, 98, 0, 16, 'pc-airstrike.html'),
+(402, 4, 112, 0, 16, NULL),
+(403, 4, 113, 0, 16, NULL),
+(404, 4, 114, 0, 16, NULL),
+(414, 4, 112, 0, 15, NULL),
+(415, 4, 113, 0, 15, NULL),
+(416, 4, 114, 0, 15, NULL),
+(426, 4, 112, 0, 14, NULL),
+(427, 4, 113, 0, 14, NULL),
+(428, 4, 114, 0, 14, NULL),
+(438, 4, 112, 0, 13, NULL),
+(439, 4, 113, 0, 13, NULL),
+(440, 4, 114, 0, 13, NULL),
+(450, 4, 112, 0, 12, NULL),
+(451, 4, 113, 0, 12, NULL),
+(452, 4, 114, 0, 12, NULL),
+(461, 4, 112, 0, 11, NULL),
+(462, 4, 113, 0, 11, NULL),
+(463, 4, 114, 0, 11, NULL),
+(473, 4, 112, 0, 10, NULL),
+(474, 4, 113, 0, 10, NULL),
+(475, 4, 114, 0, 10, NULL),
+(485, 4, 112, 0, 9, NULL),
+(486, 4, 113, 0, 9, NULL),
+(487, 4, 114, 0, 9, NULL),
+(506, 4, 112, 0, 8, NULL),
+(507, 4, 113, 0, 8, NULL),
+(508, 4, 114, 0, 8, NULL),
+(518, 4, 112, 0, 7, NULL),
+(519, 4, 113, 0, 7, NULL),
+(520, 4, 114, 0, 7, NULL),
+(530, 4, 112, 0, 6, NULL),
+(531, 4, 113, 0, 6, NULL),
+(532, 4, 114, 0, 6, NULL),
+(551, 4, 112, 0, 5, NULL),
+(552, 4, 113, 0, 5, NULL),
+(553, 4, 114, 0, 5, NULL),
+(563, 4, 112, 0, 4, NULL),
+(564, 4, 113, 0, 4, NULL),
+(565, 4, 114, 0, 4, NULL),
+(575, 4, 112, 0, 3, NULL),
+(576, 4, 113, 0, 3, NULL),
+(577, 4, 114, 0, 3, NULL),
+(587, 4, 112, 0, 2, NULL),
+(588, 4, 113, 0, 2, NULL),
+(589, 4, 114, 0, 2, NULL),
+(599, 4, 112, 0, 1, NULL),
+(600, 4, 113, 0, 1, NULL),
+(601, 4, 114, 0, 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -3174,7 +3282,19 @@ INSERT INTO `catalog_product_index_eav` (`entity_id`, `attribute_id`, `store_id`
 (11, 121, 3, 2),
 (12, 121, 1, 2),
 (12, 121, 2, 2),
-(12, 121, 3, 2);
+(12, 121, 3, 2),
+(13, 121, 1, 4),
+(13, 121, 2, 4),
+(13, 121, 3, 4),
+(14, 121, 1, 4),
+(14, 121, 2, 4),
+(14, 121, 3, 4),
+(15, 121, 1, 4),
+(15, 121, 2, 4),
+(15, 121, 3, 4),
+(16, 121, 1, 4),
+(16, 121, 2, 4),
+(16, 121, 3, 4);
 
 -- --------------------------------------------------------
 
@@ -3308,6 +3428,15 @@ CREATE TABLE IF NOT EXISTS `catalog_product_index_eav_tmp` (
   KEY `IDX_CATALOG_PRODUCT_INDEX_EAV_TMP_VALUE` (`value`)
 ) ENGINE=MEMORY DEFAULT CHARSET=utf8 COMMENT='Catalog Product EAV Indexer Temp Table';
 
+--
+-- Contenu de la table `catalog_product_index_eav_tmp`
+--
+
+INSERT INTO `catalog_product_index_eav_tmp` (`entity_id`, `attribute_id`, `store_id`, `value`) VALUES
+(1, 121, 1, 0),
+(1, 121, 2, 0),
+(1, 121, 3, 0);
+
 -- --------------------------------------------------------
 
 --
@@ -3400,7 +3529,23 @@ INSERT INTO `catalog_product_index_price` (`entity_id`, `customer_group_id`, `we
 (12, 0, 1, 2, '10.0000', '10.0000', '20.0000', '20.0000', NULL, NULL),
 (12, 1, 1, 2, '10.0000', '10.0000', '20.0000', '20.0000', NULL, NULL),
 (12, 2, 1, 2, '10.0000', '10.0000', '20.0000', '20.0000', NULL, NULL),
-(12, 3, 1, 2, '10.0000', '10.0000', '20.0000', '20.0000', NULL, NULL);
+(12, 3, 1, 2, '10.0000', '10.0000', '20.0000', '20.0000', NULL, NULL),
+(13, 0, 1, 4, '400.0000', '400.0000', '400.0000', '400.0000', NULL, NULL),
+(13, 1, 1, 4, '400.0000', '400.0000', '400.0000', '400.0000', NULL, NULL),
+(13, 2, 1, 4, '400.0000', '400.0000', '400.0000', '400.0000', NULL, NULL),
+(13, 3, 1, 4, '400.0000', '400.0000', '400.0000', '400.0000', NULL, NULL),
+(14, 0, 1, 4, '900.0000', '900.0000', '900.0000', '900.0000', NULL, NULL),
+(14, 1, 1, 4, '900.0000', '900.0000', '900.0000', '900.0000', NULL, NULL),
+(14, 2, 1, 4, '900.0000', '900.0000', '900.0000', '900.0000', NULL, NULL),
+(14, 3, 1, 4, '900.0000', '900.0000', '900.0000', '900.0000', NULL, NULL),
+(15, 0, 1, 4, '400.0000', '400.0000', '400.0000', '400.0000', NULL, NULL),
+(15, 1, 1, 4, '400.0000', '400.0000', '400.0000', '400.0000', NULL, NULL),
+(15, 2, 1, 4, '400.0000', '400.0000', '400.0000', '400.0000', NULL, NULL),
+(15, 3, 1, 4, '400.0000', '400.0000', '400.0000', '400.0000', NULL, NULL),
+(16, 0, 1, 4, '1500.0000', '1500.0000', '1500.0000', '1500.0000', NULL, NULL),
+(16, 1, 1, 4, '1500.0000', '1500.0000', '1500.0000', '1500.0000', NULL, NULL),
+(16, 2, 1, 4, '1500.0000', '1500.0000', '1500.0000', '1500.0000', NULL, NULL),
+(16, 3, 1, 4, '1500.0000', '1500.0000', '1500.0000', '1500.0000', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -3848,6 +3993,16 @@ CREATE TABLE IF NOT EXISTS `catalog_product_index_price_tmp` (
   KEY `IDX_CATALOG_PRODUCT_INDEX_PRICE_TMP_MIN_PRICE` (`min_price`)
 ) ENGINE=MEMORY DEFAULT CHARSET=utf8 COMMENT='Catalog Product Price Indexer Temp Table';
 
+--
+-- Contenu de la table `catalog_product_index_price_tmp`
+--
+
+INSERT INTO `catalog_product_index_price_tmp` (`entity_id`, `customer_group_id`, `website_id`, `tax_class_id`, `price`, `final_price`, `min_price`, `max_price`, `tier_price`, `group_price`) VALUES
+(1, 0, 1, 0, '70.0000', '70.0000', '70.0000', '70.0000', NULL, NULL),
+(1, 1, 1, 0, '70.0000', '70.0000', '70.0000', '70.0000', NULL, NULL),
+(1, 2, 1, 0, '70.0000', '70.0000', '70.0000', '70.0000', NULL, NULL),
+(1, 3, 1, 0, '70.0000', '70.0000', '70.0000', '70.0000', NULL, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -3883,7 +4038,7 @@ CREATE TABLE IF NOT EXISTS `catalog_product_index_website` (
 --
 
 INSERT INTO `catalog_product_index_website` (`website_id`, `website_date`, `rate`) VALUES
-(1, '2014-03-21', 1);
+(1, '2014-03-26', 1);
 
 -- --------------------------------------------------------
 
@@ -4354,7 +4509,7 @@ CREATE TABLE IF NOT EXISTS `cms_page` (
   `custom_theme_to` date DEFAULT NULL COMMENT 'Page Custom Theme Active To Date',
   PRIMARY KEY (`page_id`),
   KEY `IDX_CMS_PAGE_IDENTIFIER` (`identifier`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='CMS Page Table' AUTO_INCREMENT=7 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='CMS Page Table' AUTO_INCREMENT=8 ;
 
 --
 -- Contenu de la table `cms_page`
@@ -4362,11 +4517,12 @@ CREATE TABLE IF NOT EXISTS `cms_page` (
 
 INSERT INTO `cms_page` (`page_id`, `title`, `root_template`, `meta_keywords`, `meta_description`, `identifier`, `content_heading`, `content`, `creation_time`, `update_time`, `is_active`, `sort_order`, `layout_update_xml`, `custom_theme`, `custom_root_template`, `custom_layout_update_xml`, `custom_theme_from`, `custom_theme_to`) VALUES
 (1, '404 Not Found 1', 'two_columns_right', 'Page keywords', 'Page description', 'no-route', NULL, '<div class="page-title"><h1>Whoops, our bad...</h1></div>\r\n<dl>\r\n<dt>The page you requested was not found, and we have a fine guess why.</dt>\r\n<dd>\r\n<ul class="disc">\r\n<li>If you typed the URL directly, please make sure the spelling is correct.</li>\r\n<li>If you clicked on a link to get here, the link is outdated.</li>\r\n</ul></dd>\r\n</dl>\r\n<dl>\r\n<dt>What can you do?</dt>\r\n<dd>Have no fear, help is near! There are many ways you can get back on track with Magento Store.</dd>\r\n<dd>\r\n<ul class="disc">\r\n<li><a href="#" onclick="history.go(-1); return false;">Go back</a> to the previous page.</li>\r\n<li>Use the search bar at the top of the page to search for your products.</li>\r\n<li>Follow these links to get you back on track!<br /><a href="{{store url=""}}">Store Home</a> <span class="separator">|</span> <a href="{{store url="customer/account"}}">My Account</a></li></ul></dd></dl>\r\n', '2014-03-20 18:26:39', '2014-03-20 18:26:39', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL),
-(2, 'Home page', 'two_columns_right', NULL, NULL, 'home', NULL, '<div class="page-title"><h2>Home Page</h2></div>\r\n', '2014-03-20 18:26:39', '2014-03-20 18:26:47', 1, 0, '<!--<reference name="content">\n        <block type="catalog/product_new" name="home.catalog.product.new" alias="product_new" template="catalog/product/new.phtml" after="cms_page">\n            <action method="addPriceBlockType">\n                <type>bundle</type>\n                <block>bundle/catalog_product_price</block>\n                <template>bundle/catalog/product/price.phtml</template>\n            </action>\n        </block>\n        <block type="reports/product_viewed" name="home.reports.product.viewed" alias="product_viewed" template="reports/home_product_viewed.phtml" after="product_new">\n            <action method="addPriceBlockType">\n                <type>bundle</type>\n                <block>bundle/catalog_product_price</block>\n                <template>bundle/catalog/product/price.phtml</template>\n            </action>\n        </block>\n        <block type="reports/product_compared" name="home.reports.product.compared" template="reports/home_product_compared.phtml" after="product_viewed">\n            <action method="addPriceBlockType">\n                <type>bundle</type>\n                <block>bundle/catalog_product_price</block>\n                <template>bundle/catalog/product/price.phtml</template>\n            </action>\n        </block>\n    </reference>\n    <reference name="right">\n        <action method="unsetChild"><alias>right.reports.product.viewed</alias></action>\n        <action method="unsetChild"><alias>right.reports.product.compared</alias></action>\n    </reference>-->', NULL, NULL, NULL, NULL, NULL),
+(2, 'Home page', 'one_column', NULL, NULL, 'home', NULL, '<div class="page-title">\r\n<h2>Home Page</h2>\r\n</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="5" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="6" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="7" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="8" template="catalog/product/list.phtml"}}</div>', '2014-03-20 18:26:39', '2014-03-26 15:01:33', 1, 0, '<!--<reference name="content">\r\n        <block type="catalog/product_new" name="home.catalog.product.new" alias="product_new" template="catalog/product/new.phtml" after="cms_page">\r\n            <action method="addPriceBlockType">\r\n                <type>bundle</type>\r\n                <block>bundle/catalog_product_price</block>\r\n                <template>bundle/catalog/product/price.phtml</template>\r\n            </action>\r\n        </block>\r\n        <block type="reports/product_viewed" name="home.reports.product.viewed" alias="product_viewed" template="reports/home_product_viewed.phtml" after="product_new">\r\n            <action method="addPriceBlockType">\r\n                <type>bundle</type>\r\n                <block>bundle/catalog_product_price</block>\r\n                <template>bundle/catalog/product/price.phtml</template>\r\n            </action>\r\n        </block>\r\n        <block type="reports/product_compared" name="home.reports.product.compared" template="reports/home_product_compared.phtml" after="product_viewed">\r\n            <action method="addPriceBlockType">\r\n                <type>bundle</type>\r\n                <block>bundle/catalog_product_price</block>\r\n                <template>bundle/catalog/product/price.phtml</template>\r\n            </action>\r\n        </block>\r\n    </reference>\r\n    <reference name="right">\r\n        <action method="unsetChild"><alias>right.reports.product.viewed</alias></action>\r\n        <action method="unsetChild"><alias>right.reports.product.compared</alias></action>\r\n    </reference>-->', NULL, NULL, NULL, NULL, NULL),
 (3, 'About Us', 'two_columns_right', NULL, NULL, 'about-magento-demo-store', NULL, '<div class="page-title">\r\n<h1>About Magento Store</h1>\r\n</div>\r\n<div class="col3-set">\r\n<div class="col-1"><p><a href="http://www.varien.com/"><img src="{{skin url=''images/media/about_us_img.jpg''}}" title="Varien" alt="Varien" /></a></p><p style="line-height:1.2em;"><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.</small></p>\r\n<p style="color:#888; font:1.2em/1.4em georgia, serif;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta.</p></div>\r\n<div class="col-2">\r\n<p><strong style="color:#de036f;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.</strong></p>\r\n<p>Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo. </p>\r\n<p>Maecenas ullamcorper, odio vel tempus egestas, dui orci faucibus orci, sit amet aliquet lectus dolor et quam. Pellentesque consequat luctus purus. Nunc et risus. Etiam a nibh. Phasellus dignissim metus eget nisi. Vestibulum sapien dolor, aliquet nec, porta ac, malesuada a, libero. Praesent feugiat purus eget est. Nulla facilisi. Vestibulum tincidunt sapien eu velit. Mauris purus. Maecenas eget mauris eu orci accumsan feugiat. Pellentesque eget velit. Nunc tincidunt.</p></div>\r\n<div class="col-3">\r\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper </p>\r\n<p><strong style="color:#de036f;">Maecenas ullamcorper, odio vel tempus egestas, dui orci faucibus orci, sit amet aliquet lectus dolor et quam. Pellentesque consequat luctus purus.</strong></p>\r\n<p>Nunc et risus. Etiam a nibh. Phasellus dignissim metus eget nisi.</p>\r\n<div class="divider"></div>\r\n<p>To all of you, from all of us at Magento Store - Thank you and Happy eCommerce!</p>\r\n<p style="line-height:1.2em;"><strong style="font:italic 2em Georgia, serif;">John Doe</strong><br /><small>Some important guy</small></p></div>\r\n</div>', '2014-03-20 18:26:39', '2014-03-20 18:26:39', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL),
 (4, 'Customer Service', 'three_columns', NULL, NULL, 'customer-service', NULL, '<div class="page-title">\r\n<h1>Customer Service</h1>\r\n</div>\r\n<ul class="disc">\r\n<li><a href="#answer1">Shipping &amp; Delivery</a></li>\r\n<li><a href="#answer2">Privacy &amp; Security</a></li>\r\n<li><a href="#answer3">Returns &amp; Replacements</a></li>\r\n<li><a href="#answer4">Ordering</a></li>\r\n<li><a href="#answer5">Payment, Pricing &amp; Promotions</a></li>\r\n<li><a href="#answer6">Viewing Orders</a></li>\r\n<li><a href="#answer7">Updating Account Information</a></li>\r\n</ul>\r\n<dl>\r\n<dt id="answer1">Shipping &amp; Delivery</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id="answer2">Privacy &amp; Security</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id="answer3">Returns &amp; Replacements</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id="answer4">Ordering</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id="answer5">Payment, Pricing &amp; Promotions</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id="answer6">Viewing Orders</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id="answer7">Updating Account Information</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n</dl>', '2014-03-20 18:26:39', '2014-03-20 18:26:39', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL),
 (5, 'Enable Cookies', 'one_column', NULL, NULL, 'enable-cookies', NULL, '<div class="std">\r\n    <ul class="messages">\r\n        <li class="notice-msg">\r\n            <ul>\r\n                <li>Please enable cookies in your web browser to continue.</li>\r\n            </ul>\r\n        </li>\r\n    </ul>\r\n    <div class="page-title">\r\n        <h1><a name="top"></a>What are Cookies?</h1>\r\n    </div>\r\n    <p>Cookies are short pieces of data that are sent to your computer when you visit a website. On later visits, this data is then returned to that website. Cookies allow us to recognize you automatically whenever you visit our site so that we can personalize your experience and provide you with better service. We also use cookies (and similar browser data, such as Flash cookies) for fraud prevention and other purposes. If your web browser is set to refuse cookies from our website, you will not be able to complete a purchase or take advantage of certain features of our website, such as storing items in your Shopping Cart or receiving personalized recommendations. As a result, we strongly encourage you to configure your web browser to accept cookies from our website.</p>\r\n    <h2 class="subtitle">Enabling Cookies</h2>\r\n    <ul class="disc">\r\n        <li><a href="#ie7">Internet Explorer 7.x</a></li>\r\n        <li><a href="#ie6">Internet Explorer 6.x</a></li>\r\n        <li><a href="#firefox">Mozilla/Firefox</a></li>\r\n        <li><a href="#opera">Opera 7.x</a></li>\r\n    </ul>\r\n    <h3><a name="ie7"></a>Internet Explorer 7.x</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Start Internet Explorer</p>\r\n        </li>\r\n        <li>\r\n            <p>Under the <strong>Tools</strong> menu, click <strong>Internet Options</strong></p>\r\n            <p><img src="{{skin url="images/cookies/ie7-1.gif"}}" alt="" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click the <strong>Privacy</strong> tab</p>\r\n            <p><img src="{{skin url="images/cookies/ie7-2.gif"}}" alt="" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click the <strong>Advanced</strong> button</p>\r\n            <p><img src="{{skin url="images/cookies/ie7-3.gif"}}" alt="" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Put a check mark in the box for <strong>Override Automatic Cookie Handling</strong>, put another check mark in the <strong>Always accept session cookies </strong>box</p>\r\n            <p><img src="{{skin url="images/cookies/ie7-4.gif"}}" alt="" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click <strong>OK</strong></p>\r\n            <p><img src="{{skin url="images/cookies/ie7-5.gif"}}" alt="" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click <strong>OK</strong></p>\r\n            <p><img src="{{skin url="images/cookies/ie7-6.gif"}}" alt="" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Restart Internet Explore</p>\r\n        </li>\r\n    </ol>\r\n    <p class="a-top"><a href="#top">Back to Top</a></p>\r\n    <h3><a name="ie6"></a>Internet Explorer 6.x</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Select <strong>Internet Options</strong> from the Tools menu</p>\r\n            <p><img src="{{skin url="images/cookies/ie6-1.gif"}}" alt="" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Privacy</strong> tab</p>\r\n        </li>\r\n        <li>\r\n            <p>Click the <strong>Default</strong> button (or manually slide the bar down to <strong>Medium</strong>) under <strong>Settings</strong>. Click <strong>OK</strong></p>\r\n            <p><img src="{{skin url="images/cookies/ie6-2.gif"}}" alt="" /></p>\r\n        </li>\r\n    </ol>\r\n    <p class="a-top"><a href="#top">Back to Top</a></p>\r\n    <h3><a name="firefox"></a>Mozilla/Firefox</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Click on the <strong>Tools</strong>-menu in Mozilla</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Options...</strong> item in the menu - a new window open</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Privacy</strong> selection in the left part of the window. (See image below)</p>\r\n            <p><img src="{{skin url="images/cookies/firefox.png"}}" alt="" /></p>\r\n        </li>\r\n        <li>\r\n            <p>Expand the <strong>Cookies</strong> section</p>\r\n        </li>\r\n        <li>\r\n            <p>Check the <strong>Enable cookies</strong> and <strong>Accept cookies normally</strong> checkboxes</p>\r\n        </li>\r\n        <li>\r\n            <p>Save changes by clicking <strong>Ok</strong>.</p>\r\n        </li>\r\n    </ol>\r\n    <p class="a-top"><a href="#top">Back to Top</a></p>\r\n    <h3><a name="opera"></a>Opera 7.x</h3>\r\n    <ol>\r\n        <li>\r\n            <p>Click on the <strong>Tools</strong> menu in Opera</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Preferences...</strong> item in the menu - a new window open</p>\r\n        </li>\r\n        <li>\r\n            <p>Click on the <strong>Privacy</strong> selection near the bottom left of the window. (See image below)</p>\r\n            <p><img src="{{skin url="images/cookies/opera.png"}}" alt="" /></p>\r\n        </li>\r\n        <li>\r\n            <p>The <strong>Enable cookies</strong> checkbox must be checked, and <strong>Accept all cookies</strong> should be selected in the &quot;<strong>Normal cookies</strong>&quot; drop-down</p>\r\n        </li>\r\n        <li>\r\n            <p>Save changes by clicking <strong>Ok</strong></p>\r\n        </li>\r\n    </ol>\r\n    <p class="a-top"><a href="#top">Back to Top</a></p>\r\n</div>\r\n', '2014-03-20 18:26:39', '2014-03-20 18:26:39', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL),
-(6, 'Privacy Policy', 'one_column', NULL, NULL, 'privacy-policy-cookie-restriction-mode', 'Privacy Policy', '<p style="color: #ff0000; font-weight: bold; font-size: 13px">\n    Please replace this text with you Privacy Policy.\n    Please add any additional cookies your website uses below (e.g., Google Analytics)\n</p>\n<p>\n    This privacy policy sets out how {{config path="general/store_information/name"}} uses and protects any information\n    that you give {{config path="general/store_information/name"}} when you use this website.\n    {{config path="general/store_information/name"}} is committed to ensuring that your privacy is protected.\n    Should we ask you to provide certain information by which you can be identified when using this website,\n    then you can be assured that it will only be used in accordance with this privacy statement.\n    {{config path="general/store_information/name"}} may change this policy from time to time by updating this page.\n    You should check this page from time to time to ensure that you are happy with any changes.\n</p>\n<h2>What we collect</h2>\n<p>We may collect the following information:</p>\n<ul>\n    <li>name</li>\n    <li>contact information including email address</li>\n    <li>demographic information such as postcode, preferences and interests</li>\n    <li>other information relevant to customer surveys and/or offers</li>\n</ul>\n<p>\n    For the exhaustive list of cookies we collect see the <a href="#list">List of cookies we collect</a> section.\n</p>\n<h2>What we do with the information we gather</h2>\n<p>\n    We require this information to understand your needs and provide you with a better service,\n    and in particular for the following reasons:\n</p>\n<ul>\n    <li>Internal record keeping.</li>\n    <li>We may use the information to improve our products and services.</li>\n    <li>\n        We may periodically send promotional emails about new products, special offers or other information which we\n        think you may find interesting using the email address which you have provided.\n    </li>\n    <li>\n        From time to time, we may also use your information to contact you for market research purposes.\n        We may contact you by email, phone, fax or mail. We may use the information to customise the website\n        according to your interests.\n    </li>\n</ul>\n<h2>Security</h2>\n<p>\n    We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure,\n    we have put in place suitable physical, electronic and managerial procedures to safeguard and secure\n    the information we collect online.\n</p>\n<h2>How we use cookies</h2>\n<p>\n    A cookie is a small file which asks permission to be placed on your computer''s hard drive.\n    Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit\n    a particular site. Cookies allow web applications to respond to you as an individual. The web application\n    can tailor its operations to your needs, likes and dislikes by gathering and remembering information about\n    your preferences.\n</p>\n<p>\n    We use traffic log cookies to identify which pages are being used. This helps us analyse data about web page traffic\n    and improve our website in order to tailor it to customer needs. We only use this information for statistical\n    analysis purposes and then the data is removed from the system.\n</p>\n<p>\n    Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find useful\n    and which you do not. A cookie in no way gives us access to your computer or any information about you,\n    other than the data you choose to share with us. You can choose to accept or decline cookies.\n    Most web browsers automatically accept cookies, but you can usually modify your browser setting\n    to decline cookies if you prefer. This may prevent you from taking full advantage of the website.\n</p>\n<h2>Links to other websites</h2>\n<p>\n    Our website may contain links to other websites of interest. However, once you have used these links\n    to leave our site, you should note that we do not have any control over that other website.\n    Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst\n    visiting such sites and such sites are not governed by this privacy statement.\n    You should exercise caution and look at the privacy statement applicable to the website in question.\n</p>\n<h2>Controlling your personal information</h2>\n<p>You may choose to restrict the collection or use of your personal information in the following ways:</p>\n<ul>\n    <li>\n        whenever you are asked to fill in a form on the website, look for the box that you can click to indicate\n        that you do not want the information to be used by anybody for direct marketing purposes\n    </li>\n    <li>\n        if you have previously agreed to us using your personal information for direct marketing purposes,\n        you may change your mind at any time by writing to or emailing us at\n        {{config path="trans_email/ident_general/email"}}\n    </li>\n</ul>\n<p>\n    We will not sell, distribute or lease your personal information to third parties unless we have your permission\n    or are required by law to do so. We may use your personal information to send you promotional information\n    about third parties which we think you may find interesting if you tell us that you wish this to happen.\n</p>\n<p>\n    You may request details of personal information which we hold about you under the Data Protection Act 1998.\n    A small fee will be payable. If you would like a copy of the information held on you please write to\n    {{config path="general/store_information/address"}}.\n</p>\n<p>\n    If you believe that any information we are holding on you is incorrect or incomplete,\n    please write to or email us as soon as possible, at the above address.\n    We will promptly correct any information found to be incorrect.\n</p>\n<h2><a name="list"></a>List of cookies we collect</h2>\n<p>The table below lists the cookies we collect and what information they store.</p>\n<table class="data-table">\n    <thead>\n        <tr>\n            <th>COOKIE name</th>\n            <th>COOKIE Description</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <th>CART</th>\n            <td>The association with your shopping cart.</td>\n        </tr>\n        <tr>\n            <th>CATEGORY_INFO</th>\n            <td>Stores the category info on the page, that allows to display pages more quickly.</td>\n        </tr>\n        <tr>\n            <th>COMPARE</th>\n            <td>The items that you have in the Compare Products list.</td>\n        </tr>\n        <tr>\n            <th>CURRENCY</th>\n            <td>Your preferred currency</td>\n        </tr>\n        <tr>\n            <th>CUSTOMER</th>\n            <td>An encrypted version of your customer id with the store.</td>\n        </tr>\n        <tr>\n            <th>CUSTOMER_AUTH</th>\n            <td>An indicator if you are currently logged into the store.</td>\n        </tr>\n        <tr>\n            <th>CUSTOMER_INFO</th>\n            <td>An encrypted version of the customer group you belong to.</td>\n        </tr>\n        <tr>\n            <th>CUSTOMER_SEGMENT_IDS</th>\n            <td>Stores the Customer Segment ID</td>\n        </tr>\n        <tr>\n            <th>EXTERNAL_NO_CACHE</th>\n            <td>A flag, which indicates whether caching is disabled or not.</td>\n        </tr>\n        <tr>\n            <th>FRONTEND</th>\n            <td>You sesssion ID on the server.</td>\n        </tr>\n        <tr>\n            <th>GUEST-VIEW</th>\n            <td>Allows guests to edit their orders.</td>\n        </tr>\n        <tr>\n            <th>LAST_CATEGORY</th>\n            <td>The last category you visited.</td>\n        </tr>\n        <tr>\n            <th>LAST_PRODUCT</th>\n            <td>The most recent product you have viewed.</td>\n        </tr>\n        <tr>\n            <th>NEWMESSAGE</th>\n            <td>Indicates whether a new message has been received.</td>\n        </tr>\n        <tr>\n            <th>NO_CACHE</th>\n            <td>Indicates whether it is allowed to use cache.</td>\n        </tr>\n        <tr>\n            <th>PERSISTENT_SHOPPING_CART</th>\n            <td>A link to information about your cart and viewing history if you have asked the site.</td>\n        </tr>\n        <tr>\n            <th>POLL</th>\n            <td>The ID of any polls you have recently voted in.</td>\n        </tr>\n        <tr>\n            <th>POLLN</th>\n            <td>Information on what polls you have voted on.</td>\n        </tr>\n        <tr>\n            <th>RECENTLYCOMPARED</th>\n            <td>The items that you have recently compared.            </td>\n        </tr>\n        <tr>\n            <th>STF</th>\n            <td>Information on products you have emailed to friends.</td>\n        </tr>\n        <tr>\n            <th>STORE</th>\n            <td>The store view or language you have selected.</td>\n        </tr>\n        <tr>\n            <th>USER_ALLOWED_SAVE_COOKIE</th>\n            <td>Indicates whether a customer allowed to use cookies.</td>\n        </tr>\n        <tr>\n            <th>VIEWED_PRODUCT_IDS</th>\n            <td>The products that you have recently viewed.</td>\n        </tr>\n        <tr>\n            <th>WISHLIST</th>\n            <td>An encrypted list of products added to your Wishlist.</td>\n        </tr>\n        <tr>\n            <th>WISHLIST_CNT</th>\n            <td>The number of items in your Wishlist.</td>\n        </tr>\n    </tbody>\n</table>', '2014-03-20 18:26:39', '2014-03-20 18:26:39', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL);
+(6, 'Privacy Policy', 'one_column', NULL, NULL, 'privacy-policy-cookie-restriction-mode', 'Privacy Policy', '<p style="color: #ff0000; font-weight: bold; font-size: 13px">\n    Please replace this text with you Privacy Policy.\n    Please add any additional cookies your website uses below (e.g., Google Analytics)\n</p>\n<p>\n    This privacy policy sets out how {{config path="general/store_information/name"}} uses and protects any information\n    that you give {{config path="general/store_information/name"}} when you use this website.\n    {{config path="general/store_information/name"}} is committed to ensuring that your privacy is protected.\n    Should we ask you to provide certain information by which you can be identified when using this website,\n    then you can be assured that it will only be used in accordance with this privacy statement.\n    {{config path="general/store_information/name"}} may change this policy from time to time by updating this page.\n    You should check this page from time to time to ensure that you are happy with any changes.\n</p>\n<h2>What we collect</h2>\n<p>We may collect the following information:</p>\n<ul>\n    <li>name</li>\n    <li>contact information including email address</li>\n    <li>demographic information such as postcode, preferences and interests</li>\n    <li>other information relevant to customer surveys and/or offers</li>\n</ul>\n<p>\n    For the exhaustive list of cookies we collect see the <a href="#list">List of cookies we collect</a> section.\n</p>\n<h2>What we do with the information we gather</h2>\n<p>\n    We require this information to understand your needs and provide you with a better service,\n    and in particular for the following reasons:\n</p>\n<ul>\n    <li>Internal record keeping.</li>\n    <li>We may use the information to improve our products and services.</li>\n    <li>\n        We may periodically send promotional emails about new products, special offers or other information which we\n        think you may find interesting using the email address which you have provided.\n    </li>\n    <li>\n        From time to time, we may also use your information to contact you for market research purposes.\n        We may contact you by email, phone, fax or mail. We may use the information to customise the website\n        according to your interests.\n    </li>\n</ul>\n<h2>Security</h2>\n<p>\n    We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure,\n    we have put in place suitable physical, electronic and managerial procedures to safeguard and secure\n    the information we collect online.\n</p>\n<h2>How we use cookies</h2>\n<p>\n    A cookie is a small file which asks permission to be placed on your computer''s hard drive.\n    Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit\n    a particular site. Cookies allow web applications to respond to you as an individual. The web application\n    can tailor its operations to your needs, likes and dislikes by gathering and remembering information about\n    your preferences.\n</p>\n<p>\n    We use traffic log cookies to identify which pages are being used. This helps us analyse data about web page traffic\n    and improve our website in order to tailor it to customer needs. We only use this information for statistical\n    analysis purposes and then the data is removed from the system.\n</p>\n<p>\n    Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find useful\n    and which you do not. A cookie in no way gives us access to your computer or any information about you,\n    other than the data you choose to share with us. You can choose to accept or decline cookies.\n    Most web browsers automatically accept cookies, but you can usually modify your browser setting\n    to decline cookies if you prefer. This may prevent you from taking full advantage of the website.\n</p>\n<h2>Links to other websites</h2>\n<p>\n    Our website may contain links to other websites of interest. However, once you have used these links\n    to leave our site, you should note that we do not have any control over that other website.\n    Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst\n    visiting such sites and such sites are not governed by this privacy statement.\n    You should exercise caution and look at the privacy statement applicable to the website in question.\n</p>\n<h2>Controlling your personal information</h2>\n<p>You may choose to restrict the collection or use of your personal information in the following ways:</p>\n<ul>\n    <li>\n        whenever you are asked to fill in a form on the website, look for the box that you can click to indicate\n        that you do not want the information to be used by anybody for direct marketing purposes\n    </li>\n    <li>\n        if you have previously agreed to us using your personal information for direct marketing purposes,\n        you may change your mind at any time by writing to or emailing us at\n        {{config path="trans_email/ident_general/email"}}\n    </li>\n</ul>\n<p>\n    We will not sell, distribute or lease your personal information to third parties unless we have your permission\n    or are required by law to do so. We may use your personal information to send you promotional information\n    about third parties which we think you may find interesting if you tell us that you wish this to happen.\n</p>\n<p>\n    You may request details of personal information which we hold about you under the Data Protection Act 1998.\n    A small fee will be payable. If you would like a copy of the information held on you please write to\n    {{config path="general/store_information/address"}}.\n</p>\n<p>\n    If you believe that any information we are holding on you is incorrect or incomplete,\n    please write to or email us as soon as possible, at the above address.\n    We will promptly correct any information found to be incorrect.\n</p>\n<h2><a name="list"></a>List of cookies we collect</h2>\n<p>The table below lists the cookies we collect and what information they store.</p>\n<table class="data-table">\n    <thead>\n        <tr>\n            <th>COOKIE name</th>\n            <th>COOKIE Description</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <th>CART</th>\n            <td>The association with your shopping cart.</td>\n        </tr>\n        <tr>\n            <th>CATEGORY_INFO</th>\n            <td>Stores the category info on the page, that allows to display pages more quickly.</td>\n        </tr>\n        <tr>\n            <th>COMPARE</th>\n            <td>The items that you have in the Compare Products list.</td>\n        </tr>\n        <tr>\n            <th>CURRENCY</th>\n            <td>Your preferred currency</td>\n        </tr>\n        <tr>\n            <th>CUSTOMER</th>\n            <td>An encrypted version of your customer id with the store.</td>\n        </tr>\n        <tr>\n            <th>CUSTOMER_AUTH</th>\n            <td>An indicator if you are currently logged into the store.</td>\n        </tr>\n        <tr>\n            <th>CUSTOMER_INFO</th>\n            <td>An encrypted version of the customer group you belong to.</td>\n        </tr>\n        <tr>\n            <th>CUSTOMER_SEGMENT_IDS</th>\n            <td>Stores the Customer Segment ID</td>\n        </tr>\n        <tr>\n            <th>EXTERNAL_NO_CACHE</th>\n            <td>A flag, which indicates whether caching is disabled or not.</td>\n        </tr>\n        <tr>\n            <th>FRONTEND</th>\n            <td>You sesssion ID on the server.</td>\n        </tr>\n        <tr>\n            <th>GUEST-VIEW</th>\n            <td>Allows guests to edit their orders.</td>\n        </tr>\n        <tr>\n            <th>LAST_CATEGORY</th>\n            <td>The last category you visited.</td>\n        </tr>\n        <tr>\n            <th>LAST_PRODUCT</th>\n            <td>The most recent product you have viewed.</td>\n        </tr>\n        <tr>\n            <th>NEWMESSAGE</th>\n            <td>Indicates whether a new message has been received.</td>\n        </tr>\n        <tr>\n            <th>NO_CACHE</th>\n            <td>Indicates whether it is allowed to use cache.</td>\n        </tr>\n        <tr>\n            <th>PERSISTENT_SHOPPING_CART</th>\n            <td>A link to information about your cart and viewing history if you have asked the site.</td>\n        </tr>\n        <tr>\n            <th>POLL</th>\n            <td>The ID of any polls you have recently voted in.</td>\n        </tr>\n        <tr>\n            <th>POLLN</th>\n            <td>Information on what polls you have voted on.</td>\n        </tr>\n        <tr>\n            <th>RECENTLYCOMPARED</th>\n            <td>The items that you have recently compared.            </td>\n        </tr>\n        <tr>\n            <th>STF</th>\n            <td>Information on products you have emailed to friends.</td>\n        </tr>\n        <tr>\n            <th>STORE</th>\n            <td>The store view or language you have selected.</td>\n        </tr>\n        <tr>\n            <th>USER_ALLOWED_SAVE_COOKIE</th>\n            <td>Indicates whether a customer allowed to use cookies.</td>\n        </tr>\n        <tr>\n            <th>VIEWED_PRODUCT_IDS</th>\n            <td>The products that you have recently viewed.</td>\n        </tr>\n        <tr>\n            <th>WISHLIST</th>\n            <td>An encrypted list of products added to your Wishlist.</td>\n        </tr>\n        <tr>\n            <th>WISHLIST_CNT</th>\n            <td>The number of items in your Wishlist.</td>\n        </tr>\n    </tbody>\n</table>', '2014-03-20 18:26:39', '2014-03-20 18:26:39', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL),
+(7, 'homepage-jv', 'one_column', NULL, NULL, 'homepage-jv', 'Index Jeux vidéo', '<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="9" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="10" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="11" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="12" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="13" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="14" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="15" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="16" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="17" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="18" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="19" template="catalog/product/list.phtml"}}</div>\r\n<div class="page-title">{{block type="catalog/product_list" name="home.catalog.product.list" alias="products_homepage" category_id="20" template="catalog/product/list.phtml"}}</div>\r\n</div>\r\n</div>', '2014-03-26 15:03:50', '2014-03-26 15:03:50', 1, 0, NULL, NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -4391,7 +4547,9 @@ INSERT INTO `cms_page_store` (`page_id`, `store_id`) VALUES
 (3, 0),
 (4, 0),
 (5, 0),
-(6, 0);
+(6, 0),
+(7, 2),
+(7, 3);
 
 -- --------------------------------------------------------
 
@@ -4462,7 +4620,7 @@ CREATE TABLE IF NOT EXISTS `core_config_data` (
   `value` text COMMENT 'Config Value',
   PRIMARY KEY (`config_id`),
   UNIQUE KEY `UNQ_CORE_CONFIG_DATA_SCOPE_SCOPE_ID_PATH` (`scope`,`scope_id`,`path`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Config Data' AUTO_INCREMENT=190 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Config Data' AUTO_INCREMENT=213 ;
 
 --
 -- Contenu de la table `core_config_data`
@@ -4657,7 +4815,30 @@ INSERT INTO `core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `value
 (186, 'default', 0, 'cataloginventory/item_options/enable_qty_increments', '0'),
 (187, 'default', 0, 'cataloginventory/item_options/auto_return', '0'),
 (188, 'stores', 3, 'currency/options/default', 'GBP'),
-(189, 'stores', 3, 'currency/options/allow', 'GBP');
+(189, 'stores', 3, 'currency/options/allow', 'GBP'),
+(190, 'stores', 3, 'general/locale/code', 'en_GB'),
+(191, 'default', 0, 'ig_lightbox/general/enabled', '1'),
+(192, 'default', 0, 'ig_lightbox/general/bigImageSize', '800x600'),
+(193, 'default', 0, 'ig_lightbox/general/mainImageSize', '265x265'),
+(194, 'default', 0, 'ig_lightbox/general/thumbnailImageSize', '60x60'),
+(195, 'default', 0, 'ig_lightbox/display/backgroundOpacity', '0.8'),
+(196, 'default', 0, 'ig_lightbox/display/backgroundColor', '#000000'),
+(197, 'default', 0, 'ig_lightbox/display/imageboxOpacity', '1.0'),
+(198, 'default', 0, 'ig_lightbox/display/imageboxColor', '#000000'),
+(199, 'default', 0, 'ig_lightbox/display/toolbarOpacity', '0.7'),
+(200, 'default', 0, 'ig_lightbox/display/toolbarColor', '#000000'),
+(201, 'default', 0, 'ig_lightbox/display/toolbarTextColor', '#ffffff'),
+(202, 'default', 0, 'ig_lightbox/display/toolbarTextSize', '12'),
+(203, 'default', 0, 'ig_lightbox/display/toolbarTextFont', 'Verdana'),
+(204, 'default', 0, 'ig_lightbox/display/paddingSize', '10'),
+(205, 'default', 0, 'ig_lightbox/display/borderSize', '1'),
+(206, 'default', 0, 'ig_lightbox/display/borderColor', '#909090'),
+(207, 'default', 0, 'ig_lightbox/effects/fadeIn', '1.0'),
+(208, 'default', 0, 'ig_lightbox/effects/fadeOut', '1.0'),
+(209, 'default', 0, 'ig_lightbox/effects/imageResize', '0.5'),
+(210, 'default', 0, 'ig_lightbox/effects/imageSwap', '0.5'),
+(211, 'stores', 3, 'web/default/cms_home_page', 'homepage-jv'),
+(212, 'stores', 2, 'web/default/cms_home_page', 'homepage-jv');
 
 -- --------------------------------------------------------
 
@@ -4783,6 +4964,7 @@ INSERT INTO `core_resource` (`code`, `version`, `data_version`) VALUES
 ('downloadable_setup', '1.6.0.0.2', '1.6.0.0.2'),
 ('eav_setup', '1.6.0.1', '1.6.0.1'),
 ('giftmessage_setup', '1.6.0.0', '1.6.0.0'),
+('ig_lightbox_setup', '1.0.15', '1.0.15'),
 ('importexport_setup', '1.6.0.2', '1.6.0.2'),
 ('index_setup', '1.6.0.0', '1.6.0.0'),
 ('log_setup', '1.6.0.0', '1.6.0.0'),
@@ -4796,6 +4978,7 @@ INSERT INTO `core_resource` (`code`, `version`, `data_version`) VALUES
 ('persistent_setup', '1.0.0.0', '1.0.0.0'),
 ('poll_setup', '1.6.0.0', '1.6.0.0'),
 ('productalert_setup', '1.6.0.0', '1.6.0.0'),
+('productzoom_setup', '0.1.0', '0.1.0'),
 ('rating_setup', '1.6.0.0', '1.6.0.0'),
 ('reports_setup', '1.6.0.0.1', '1.6.0.0.1'),
 ('review_setup', '1.6.0.0', '1.6.0.0'),
@@ -8464,15 +8647,15 @@ CREATE TABLE IF NOT EXISTS `index_process` (
 --
 
 INSERT INTO `index_process` (`process_id`, `indexer_code`, `status`, `started_at`, `ended_at`, `mode`) VALUES
-(1, 'catalog_product_attribute', 'pending', '2014-03-21 16:20:28', '2014-03-21 16:20:28', 'real_time'),
-(2, 'catalog_product_price', 'pending', '2014-03-21 16:20:29', '2014-03-21 16:20:29', 'real_time'),
-(3, 'catalog_url', 'pending', '2014-03-21 16:20:28', '2014-03-21 16:20:28', 'real_time'),
+(1, 'catalog_product_attribute', 'pending', '2014-03-26 14:03:07', '2014-03-26 14:03:08', 'real_time'),
+(2, 'catalog_product_price', 'pending', '2014-03-26 14:03:08', '2014-03-26 14:03:08', 'real_time'),
+(3, 'catalog_url', 'pending', '2014-03-26 14:34:41', '2014-03-26 14:34:41', 'real_time'),
 (4, 'catalog_product_flat', 'pending', '2014-03-20 19:33:50', '2014-03-20 19:33:51', 'real_time'),
 (5, 'catalog_category_flat', 'pending', '2014-03-20 19:33:51', '2014-03-20 19:33:51', 'real_time'),
-(6, 'catalog_category_product', 'pending', '2014-03-21 16:20:28', '2014-03-21 16:20:28', 'real_time'),
-(7, 'catalogsearch_fulltext', 'pending', '2014-03-21 16:20:28', '2014-03-21 16:20:28', 'real_time'),
-(8, 'cataloginventory_stock', 'pending', '2014-03-21 16:20:28', '2014-03-21 16:20:28', 'real_time'),
-(9, 'tag_summary', 'pending', '2014-03-21 16:20:28', '2014-03-21 16:20:28', 'real_time');
+(6, 'catalog_category_product', 'pending', '2014-03-26 14:34:41', '2014-03-26 14:34:41', 'real_time'),
+(7, 'catalogsearch_fulltext', 'pending', '2014-03-26 14:34:41', '2014-03-26 14:34:41', 'real_time'),
+(8, 'cataloginventory_stock', 'pending', '2014-03-26 14:03:07', '2014-03-26 14:03:07', 'real_time'),
+(9, 'tag_summary', 'pending', '2014-03-26 14:03:08', '2014-03-26 14:03:08', 'real_time');
 
 -- --------------------------------------------------------
 
@@ -8651,7 +8834,98 @@ INSERT INTO `log_url` (`url_id`, `visitor_id`, `visit_time`) VALUES
 (73, 5, '2014-03-21 16:13:25'),
 (74, 5, '2014-03-21 16:13:31'),
 (75, 5, '2014-03-21 16:13:38'),
-(76, 5, '2014-03-21 16:13:44');
+(76, 5, '2014-03-21 16:13:44'),
+(77, 9, '2014-03-24 11:06:15'),
+(78, 10, '2014-03-26 13:02:37'),
+(79, 10, '2014-03-26 13:05:40'),
+(80, 10, '2014-03-26 13:05:40'),
+(81, 10, '2014-03-26 13:05:49'),
+(82, 10, '2014-03-26 13:05:52'),
+(83, 10, '2014-03-26 13:05:56'),
+(84, 10, '2014-03-26 13:06:00'),
+(85, 10, '2014-03-26 13:06:04'),
+(86, 10, '2014-03-26 13:06:06'),
+(87, 10, '2014-03-26 13:06:07'),
+(88, 10, '2014-03-26 13:06:08'),
+(89, 10, '2014-03-26 13:06:14'),
+(90, 10, '2014-03-26 13:08:21'),
+(91, 10, '2014-03-26 13:08:24'),
+(92, 10, '2014-03-26 13:12:52'),
+(93, 10, '2014-03-26 13:12:54'),
+(94, 10, '2014-03-26 13:12:56'),
+(95, 10, '2014-03-26 13:12:57'),
+(96, 10, '2014-03-26 13:15:29'),
+(97, 10, '2014-03-26 13:15:32'),
+(98, 10, '2014-03-26 13:15:36'),
+(99, 11, '2014-03-26 13:55:51'),
+(100, 11, '2014-03-26 13:55:59'),
+(101, 11, '2014-03-26 13:56:01'),
+(102, 11, '2014-03-26 13:56:03'),
+(103, 11, '2014-03-26 13:56:13'),
+(104, 11, '2014-03-26 13:56:17'),
+(105, 11, '2014-03-26 13:56:19'),
+(106, 11, '2014-03-26 13:56:22'),
+(107, 11, '2014-03-26 13:56:24'),
+(108, 11, '2014-03-26 13:57:15'),
+(109, 11, '2014-03-26 13:57:17'),
+(110, 11, '2014-03-26 13:57:39'),
+(111, 11, '2014-03-26 13:57:50'),
+(112, 11, '2014-03-26 13:58:59'),
+(113, 11, '2014-03-26 13:59:01'),
+(114, 11, '2014-03-26 14:01:33'),
+(115, 11, '2014-03-26 14:01:34'),
+(116, 11, '2014-03-26 14:01:36'),
+(117, 11, '2014-03-26 14:01:37'),
+(118, 11, '2014-03-26 14:01:39'),
+(119, 11, '2014-03-26 14:01:40'),
+(120, 11, '2014-03-26 14:01:41'),
+(121, 11, '2014-03-26 14:01:43'),
+(122, 11, '2014-03-26 14:02:23'),
+(123, 11, '2014-03-26 14:25:04'),
+(124, 11, '2014-03-26 14:25:07'),
+(125, 11, '2014-03-26 14:32:19'),
+(126, 11, '2014-03-26 14:32:20'),
+(127, 11, '2014-03-26 14:32:21'),
+(128, 11, '2014-03-26 14:32:23'),
+(129, 11, '2014-03-26 14:32:24'),
+(130, 11, '2014-03-26 14:32:25'),
+(131, 11, '2014-03-26 14:32:27'),
+(132, 11, '2014-03-26 14:32:33'),
+(133, 11, '2014-03-26 14:32:35'),
+(134, 11, '2014-03-26 14:32:36'),
+(135, 11, '2014-03-26 14:32:37'),
+(136, 11, '2014-03-26 14:32:39'),
+(137, 11, '2014-03-26 14:32:43'),
+(138, 11, '2014-03-26 14:32:45'),
+(139, 11, '2014-03-26 14:32:46'),
+(140, 11, '2014-03-26 14:32:47'),
+(141, 11, '2014-03-26 14:32:49'),
+(142, 11, '2014-03-26 14:33:36'),
+(143, 11, '2014-03-26 14:33:39'),
+(144, 11, '2014-03-26 14:33:40'),
+(145, 11, '2014-03-26 14:34:44'),
+(146, 11, '2014-03-26 14:44:56'),
+(147, 11, '2014-03-26 14:45:01'),
+(148, 11, '2014-03-26 14:45:04'),
+(149, 11, '2014-03-26 14:47:44'),
+(150, 11, '2014-03-26 14:47:46'),
+(151, 11, '2014-03-26 14:47:46'),
+(152, 11, '2014-03-26 14:52:21'),
+(153, 11, '2014-03-26 14:52:25'),
+(154, 11, '2014-03-26 14:52:40'),
+(155, 11, '2014-03-26 14:53:14'),
+(156, 11, '2014-03-26 14:53:15'),
+(157, 11, '2014-03-26 14:53:28'),
+(158, 11, '2014-03-26 14:53:30'),
+(159, 11, '2014-03-26 14:54:32'),
+(160, 11, '2014-03-26 14:54:35'),
+(161, 11, '2014-03-26 14:56:13'),
+(162, 11, '2014-03-26 14:57:08'),
+(163, 11, '2014-03-26 14:57:10'),
+(164, 11, '2014-03-26 14:59:24'),
+(165, 11, '2014-03-26 14:59:43'),
+(166, 11, '2014-03-26 15:05:21'),
+(167, 11, '2014-03-26 15:05:26');
 
 -- --------------------------------------------------------
 
@@ -8664,7 +8938,7 @@ CREATE TABLE IF NOT EXISTS `log_url_info` (
   `url` varchar(255) DEFAULT NULL COMMENT 'URL',
   `referer` varchar(255) DEFAULT NULL COMMENT 'Referrer',
   PRIMARY KEY (`url_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Log URL Info Table' AUTO_INCREMENT=77 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Log URL Info Table' AUTO_INCREMENT=168 ;
 
 --
 -- Contenu de la table `log_url_info`
@@ -8746,7 +9020,98 @@ INSERT INTO `log_url_info` (`url_id`, `url`, `referer`) VALUES
 (73, 'http://127.0.0.1/tpmagento/', NULL),
 (74, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/5', 'http://127.0.0.1/tpmagento/'),
 (75, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/6', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-portables.html'),
-(76, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/7', 'http://127.0.0.1/tpmagento/index.php/netbooks-ultraportables.html');
+(76, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/7', 'http://127.0.0.1/tpmagento/index.php/netbooks-ultraportables.html'),
+(77, 'http://127.0.0.1/tpmagento/', NULL),
+(78, 'http://127.0.0.1/tpmagento/', NULL),
+(79, 'http://127.0.0.1/tpmagento/index.php/poll/vote/add/poll_id/1/', 'http://127.0.0.1/tpmagento/'),
+(80, 'http://127.0.0.1/tpmagento/index.php/', 'http://127.0.0.1/tpmagento/'),
+(81, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/6', 'http://127.0.0.1/tpmagento/index.php/'),
+(82, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/5', 'http://127.0.0.1/tpmagento/index.php/netbooks-ultraportables.html'),
+(83, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-portables.html'),
+(84, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/10', 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv'),
+(85, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/9', 'http://127.0.0.1/tpmagento/index.php/univers-ps3.html'),
+(86, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/17', 'http://127.0.0.1/tpmagento/index.php/univers-ps4.html'),
+(87, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/9', 'http://127.0.0.1/tpmagento/index.php/ps-vita.html'),
+(88, 'http://127.0.0.1/tpmagento/index.php/', 'http://127.0.0.1/tpmagento/index.php/univers-ps4.html'),
+(89, 'http://127.0.0.1/tpmagento/index.php/', NULL),
+(90, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/18', 'http://127.0.0.1/tpmagento/index.php/'),
+(91, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_info', 'http://127.0.0.1/tpmagento/index.php/univers-psp.html'),
+(92, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/5', 'http://127.0.0.1/tpmagento/index.php/?___store=fr_info'),
+(93, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/6', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-portables.html'),
+(94, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/7', 'http://127.0.0.1/tpmagento/index.php/netbooks-ultraportables.html'),
+(95, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/8', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-de-bureau.html'),
+(96, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv', 'http://127.0.0.1/tpmagento/index.php/ecrans.html'),
+(97, 'http://127.0.0.1/tpmagento/index.php/?___store=en_jv&___from_store=fr_jv', 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv'),
+(98, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv&___from_store=en_jv', 'http://127.0.0.1/tpmagento/index.php/?___store=en_jv&___from_store=fr_jv'),
+(99, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/9', 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv&___from_store=en_jv'),
+(100, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/11', 'http://127.0.0.1/tpmagento/index.php/univers-ps4.html'),
+(101, 'http://127.0.0.1/tpmagento/index.php/catalog/product/view/id/2/category/11', 'http://127.0.0.1/tpmagento/index.php/univers-xbox-one.html'),
+(102, 'http://127.0.0.1/tpmagento/index.php/catalog/product/gallery/id/2/image/15/', 'http://127.0.0.1/tpmagento/index.php/univers-xbox-one/forza-5.html'),
+(103, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/13', 'http://127.0.0.1/tpmagento/index.php/univers-xbox-one/forza-5.html'),
+(104, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_info', 'http://127.0.0.1/tpmagento/index.php/univers-wii-u.html'),
+(105, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/5', 'http://127.0.0.1/tpmagento/index.php/?___store=fr_info'),
+(106, 'http://127.0.0.1/tpmagento/index.php/catalog/product/view/id/14/category/5', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-portables.html'),
+(107, 'http://127.0.0.1/tpmagento/index.php/catalog/product/gallery/id/14/image/3/', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-portables/pc-portable-asus.html'),
+(108, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/7', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-portables/pc-portable-asus.html'),
+(109, 'http://127.0.0.1/tpmagento/index.php/catalog/product/view/id/16/category/7', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-de-bureau.html'),
+(110, 'http://127.0.0.1/tpmagento/index.php/catalog/product/view/id/16/category/7', NULL),
+(111, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/7', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-de-bureau/pc-airstrike.html'),
+(112, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-de-bureau.html'),
+(113, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/20', 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv'),
+(114, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/14', 'http://127.0.0.1/tpmagento/index.php/jeux-a-telecharger.html'),
+(115, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/15', 'http://127.0.0.1/tpmagento/index.php/univers-wii.html'),
+(116, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/16', 'http://127.0.0.1/tpmagento/index.php/univers-2ds-3ds.html'),
+(117, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/13', 'http://127.0.0.1/tpmagento/index.php/univers-ds.html'),
+(118, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/12', 'http://127.0.0.1/tpmagento/index.php/univers-wii-u.html'),
+(119, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/11', 'http://127.0.0.1/tpmagento/index.php/univers-xbox-360.html'),
+(120, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/10', 'http://127.0.0.1/tpmagento/index.php/univers-xbox-one.html'),
+(121, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/9', 'http://127.0.0.1/tpmagento/index.php/univers-ps3.html'),
+(122, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/12', 'http://127.0.0.1/tpmagento/index.php/univers-ps4.html'),
+(123, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/9', 'http://127.0.0.1/tpmagento/index.php/univers-xbox-360.html'),
+(124, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/10', 'http://127.0.0.1/tpmagento/index.php/univers-ps4.html'),
+(125, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/20', 'http://127.0.0.1/tpmagento/index.php/univers-ps3.html'),
+(126, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/19', 'http://127.0.0.1/tpmagento/index.php/jeux-a-telecharger.html'),
+(127, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/18', 'http://127.0.0.1/tpmagento/index.php/univers-pc-mac.html'),
+(128, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/17', 'http://127.0.0.1/tpmagento/index.php/univers-psp.html'),
+(129, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/16', 'http://127.0.0.1/tpmagento/index.php/ps-vita.html'),
+(130, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/15', 'http://127.0.0.1/tpmagento/index.php/univers-ds.html'),
+(131, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/14', 'http://127.0.0.1/tpmagento/index.php/univers-2ds-3ds.html'),
+(132, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/13', 'http://127.0.0.1/tpmagento/index.php/univers-wii.html'),
+(133, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/12', 'http://127.0.0.1/tpmagento/index.php/univers-wii-u.html'),
+(134, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/11', 'http://127.0.0.1/tpmagento/index.php/univers-xbox-360.html'),
+(135, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/10', 'http://127.0.0.1/tpmagento/index.php/univers-xbox-one.html'),
+(136, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/9', 'http://127.0.0.1/tpmagento/index.php/univers-ps3.html'),
+(137, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_info', 'http://127.0.0.1/tpmagento/index.php/univers-ps4.html'),
+(138, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/5', 'http://127.0.0.1/tpmagento/index.php/?___store=fr_info'),
+(139, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/6', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-portables.html'),
+(140, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/7', 'http://127.0.0.1/tpmagento/index.php/netbooks-ultraportables.html'),
+(141, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/8', 'http://127.0.0.1/tpmagento/index.php/ordinateurs-de-bureau.html'),
+(142, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv', 'http://127.0.0.1/tpmagento/index.php/ecrans.html'),
+(143, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/13', 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv'),
+(144, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/14', 'http://127.0.0.1/tpmagento/index.php/univers-wii-u.html'),
+(145, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/14', NULL),
+(146, 'http://127.0.0.1/tpmagento/index.php/catalog/product/view/id/6/category/14', 'http://127.0.0.1/tpmagento/index.php/univers-wii.html'),
+(147, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/20', 'http://127.0.0.1/tpmagento/index.php/univers-wii/madworld.html'),
+(148, 'http://127.0.0.1/tpmagento/index.php/catalog/product/view/id/12/category/20', 'http://127.0.0.1/tpmagento/index.php/jeux-a-telecharger.html'),
+(149, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/18', 'http://127.0.0.1/tpmagento/index.php/jeux-a-telecharger/limbo.html'),
+(150, 'http://127.0.0.1/tpmagento/index.php/catalog/product/view/id/10/category/18', 'http://127.0.0.1/tpmagento/index.php/univers-psp.html'),
+(151, 'http://127.0.0.1/tpmagento/skin/frontend/default/default/images/zoomloader.gif', 'http://127.0.0.1/tpmagento/index.php/univers-psp/ff-crisis-core.html'),
+(152, 'http://127.0.0.1/tpmagento/index.php/', 'http://127.0.0.1/tpmagento/index.php/univers-psp/ff-crisis-core.html'),
+(153, 'http://127.0.0.1/tpmagento/index.php/', 'http://127.0.0.1/tpmagento/index.php/univers-psp/ff-crisis-core.html'),
+(154, 'http://127.0.0.1/tpmagento/index.php/', NULL),
+(155, 'http://127.0.0.1/tpmagento/index.php/', 'http://127.0.0.1/tpmagento/index.php/'),
+(156, 'http://127.0.0.1/tpmagento/index.php/', 'http://127.0.0.1/tpmagento/index.php/'),
+(157, 'http://127.0.0.1/tpmagento/index.php/', NULL),
+(158, 'http://127.0.0.1/tpmagento/index.php/catalog/category/view/id/11', 'http://127.0.0.1/tpmagento/index.php/'),
+(159, 'http://127.0.0.1/tpmagento/index.php/', 'http://127.0.0.1/tpmagento/index.php/univers-xbox-one.html'),
+(160, 'http://127.0.0.1/tpmagento/index.php/', NULL),
+(161, 'http://127.0.0.1/tpmagento/index.php/', NULL),
+(162, 'http://127.0.0.1/tpmagento/index.php/', NULL),
+(163, 'http://127.0.0.1/tpmagento/index.php/', 'http://127.0.0.1/tpmagento/index.php/'),
+(164, 'http://127.0.0.1/tpmagento/index.php/', NULL),
+(165, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_info', 'http://127.0.0.1/tpmagento/index.php/'),
+(166, 'http://127.0.0.1/tpmagento/index.php/', 'http://127.0.0.1/tpmagento/index.php/?___store=fr_info'),
+(167, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv', 'http://127.0.0.1/tpmagento/index.php/');
 
 -- --------------------------------------------------------
 
@@ -8762,7 +9127,7 @@ CREATE TABLE IF NOT EXISTS `log_visitor` (
   `last_url_id` bigint(20) unsigned NOT NULL DEFAULT '0' COMMENT 'Last URL ID',
   `store_id` smallint(5) unsigned NOT NULL COMMENT 'Store ID',
   PRIMARY KEY (`visitor_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Log Visitors Table' AUTO_INCREMENT=9 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Log Visitors Table' AUTO_INCREMENT=12 ;
 
 --
 -- Contenu de la table `log_visitor`
@@ -8776,7 +9141,10 @@ INSERT INTO `log_visitor` (`visitor_id`, `session_id`, `first_visit_at`, `last_v
 (5, 'taddk6uods1958i4eia5091t71', '2014-03-21 14:14:27', '2014-03-21 16:13:44', 76, 1),
 (6, 'atn3hbao9kcgv4tsd8rti6trc4', '2014-03-21 15:48:09', '2014-03-21 15:48:09', 50, 1),
 (7, 'jvdotu95v7bkarueu8buoslrf1', '2014-03-21 15:48:10', '2014-03-21 15:48:10', 53, 1),
-(8, 'smsta5t019pmu4638l0gr2jl60', '2014-03-21 15:48:11', '2014-03-21 15:48:11', 54, 1);
+(8, 'smsta5t019pmu4638l0gr2jl60', '2014-03-21 15:48:11', '2014-03-21 15:48:11', 54, 1),
+(9, 'j4cha34ajscoe6smmchfs920r1', '2014-03-24 11:06:12', '2014-03-24 11:06:15', 77, 1),
+(10, 'nerg4biru4kib3pclc4d2vfmj1', '2014-03-26 13:02:37', '2014-03-26 13:15:36', 98, 2),
+(11, 'nerg4biru4kib3pclc4d2vfmj1', '2014-03-26 13:55:50', '2014-03-26 15:05:26', 167, 2);
 
 -- --------------------------------------------------------
 
@@ -8807,7 +9175,10 @@ INSERT INTO `log_visitor_info` (`visitor_id`, `http_referer`, `http_user_agent`,
 (5, NULL, 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0', NULL, 'fr,fr-fr;q=0.8,en-us;q=0.5,en;q=0.3', 2130706433, 2130706433),
 (6, NULL, 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0', NULL, 'fr,fr-fr;q=0.8,en-us;q=0.5,en;q=0.3', 2130706433, 2130706433),
 (7, NULL, 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0', NULL, 'fr,fr-fr;q=0.8,en-us;q=0.5,en;q=0.3', 2130706433, 2130706433),
-(8, NULL, 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0', NULL, 'fr,fr-fr;q=0.8,en-us;q=0.5,en;q=0.3', 2130706433, 2130706433);
+(8, NULL, 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0', NULL, 'fr,fr-fr;q=0.8,en-us;q=0.5,en;q=0.3', 2130706433, 2130706433),
+(9, NULL, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36', NULL, 'fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4', 2130706433, 2130706433),
+(10, NULL, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/33.0.1750.152 Chrome/33.0.1750.152 Safari/537.36', NULL, 'fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4', 2130706433, 2130706433),
+(11, 'http://127.0.0.1/tpmagento/index.php/?___store=fr_jv&___from_store=en_jv', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/33.0.1750.152 Chrome/33.0.1750.152 Safari/537.36', NULL, 'fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4', 2130706433, 2130706433);
 
 -- --------------------------------------------------------
 
@@ -9123,7 +9494,7 @@ CREATE TABLE IF NOT EXISTS `poll` (
 --
 
 INSERT INTO `poll` (`poll_id`, `poll_title`, `votes_count`, `store_id`, `date_posted`, `date_closed`, `active`, `closed`, `answers_display`) VALUES
-(1, 'What is your favorite color', 8, 0, '2014-03-20 18:26:47', NULL, 1, 0, NULL);
+(1, 'What is your favorite color', 9, 0, '2014-03-20 18:26:47', NULL, 1, 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -9146,7 +9517,7 @@ CREATE TABLE IF NOT EXISTS `poll_answer` (
 --
 
 INSERT INTO `poll_answer` (`answer_id`, `poll_id`, `answer_title`, `votes_count`, `answer_order`) VALUES
-(1, 1, 'Green', 4, 0),
+(1, 1, 'Green', 5, 0),
 (2, 1, 'Red', 1, 0),
 (3, 1, 'Black', 1, 0),
 (4, 1, 'Magenta', 2, 0);
@@ -9186,14 +9557,15 @@ CREATE TABLE IF NOT EXISTS `poll_vote` (
   `vote_time` timestamp NULL DEFAULT NULL COMMENT 'Date closed',
   PRIMARY KEY (`vote_id`),
   KEY `IDX_POLL_VOTE_POLL_ANSWER_ID` (`poll_answer_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Poll Vote' AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Poll Vote' AUTO_INCREMENT=3 ;
 
 --
 -- Contenu de la table `poll_vote`
 --
 
 INSERT INTO `poll_vote` (`vote_id`, `poll_id`, `poll_answer_id`, `ip_address`, `customer_id`, `vote_time`) VALUES
-(1, 1, 3, 2130706433, NULL, '2014-03-21 14:27:17');
+(1, 1, 3, 2130706433, NULL, '2014-03-21 14:27:17'),
+(2, 1, 1, 2130706433, NULL, '2014-03-26 13:05:40');
 
 -- --------------------------------------------------------
 
@@ -9432,7 +9804,20 @@ CREATE TABLE IF NOT EXISTS `report_event` (
   KEY `IDX_REPORT_EVENT_OBJECT_ID` (`object_id`),
   KEY `IDX_REPORT_EVENT_SUBTYPE` (`subtype`),
   KEY `IDX_REPORT_EVENT_STORE_ID` (`store_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Reports Event Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Reports Event Table' AUTO_INCREMENT=8 ;
+
+--
+-- Contenu de la table `report_event`
+--
+
+INSERT INTO `report_event` (`event_id`, `logged_at`, `event_type_id`, `object_id`, `subject_id`, `subtype`, `store_id`) VALUES
+(1, '2014-03-26 13:56:01', 1, 2, 11, 1, 2),
+(2, '2014-03-26 13:56:21', 1, 14, 11, 1, 1),
+(3, '2014-03-26 13:57:17', 1, 16, 11, 1, 1),
+(4, '2014-03-26 13:57:39', 1, 16, 11, 1, 1),
+(5, '2014-03-26 14:44:56', 1, 6, 11, 1, 2),
+(6, '2014-03-26 14:45:03', 1, 12, 11, 1, 2),
+(7, '2014-03-26 14:47:45', 1, 10, 11, 1, 2);
 
 -- --------------------------------------------------------
 
@@ -9541,7 +9926,19 @@ CREATE TABLE IF NOT EXISTS `report_viewed_product_index` (
   KEY `IDX_REPORT_VIEWED_PRODUCT_INDEX_STORE_ID` (`store_id`),
   KEY `IDX_REPORT_VIEWED_PRODUCT_INDEX_ADDED_AT` (`added_at`),
   KEY `IDX_REPORT_VIEWED_PRODUCT_INDEX_PRODUCT_ID` (`product_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table' AUTO_INCREMENT=8 ;
+
+--
+-- Contenu de la table `report_viewed_product_index`
+--
+
+INSERT INTO `report_viewed_product_index` (`index_id`, `visitor_id`, `customer_id`, `product_id`, `store_id`, `added_at`) VALUES
+(1, 11, NULL, 2, 2, '2014-03-26 13:56:01'),
+(2, 11, NULL, 14, 1, '2014-03-26 13:56:21'),
+(3, 11, NULL, 16, 1, '2014-03-26 13:57:39'),
+(5, 11, NULL, 6, 2, '2014-03-26 14:44:56'),
+(6, 11, NULL, 12, 2, '2014-03-26 14:45:03'),
+(7, 11, NULL, 10, 2, '2014-03-26 14:47:45');
 
 -- --------------------------------------------------------
 

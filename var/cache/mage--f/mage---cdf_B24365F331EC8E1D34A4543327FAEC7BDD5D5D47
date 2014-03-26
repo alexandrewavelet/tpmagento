@@ -1,0 +1,4 @@
+<div class="nav-container">
+    <ul id="nav">
+        <li  class="level0 nav-1 first level-top"><a href="http://127.0.0.1/tpmagento/index.php/ordinateurs-portables.html?___SID=U"  class="level-top" ><span>Ordinateurs portables</span></a></li><li  class="level0 nav-2 level-top"><a href="http://127.0.0.1/tpmagento/index.php/netbooks-ultraportables.html?___SID=U"  class="level-top" ><span>Netbooks - Ultraportables</span></a></li><li  class="level0 nav-3 level-top"><a href="http://127.0.0.1/tpmagento/index.php/ordinateurs-de-bureau.html?___SID=U"  class="level-top" ><span>Ordinateurs de bureau</span></a></li><li  class="level0 nav-4 last level-top"><a href="http://127.0.0.1/tpmagento/index.php/ecrans.html?___SID=U"  class="level-top" ><span>Écrans</span></a></li>    </ul>
+</div>
